@@ -8,17 +8,14 @@ GLOBAL_LIST_INIT(command_positions, list(
 	"Head of Security",
 	"Chief Engineer",
 	"Research Director",
-	"Chief Medical Officer",
-	"Nanotrasen Representative"
+	"Chief Medical Officer"
 ))
 
 
 GLOBAL_LIST_INIT(engineering_positions, list(
 	"Chief Engineer",
 	"Station Engineer",
-	"Life Support Specialist",
-	"Mechanic",
-	"Trainee Engineer"
+	"Mechanic"
 ))
 
 
@@ -42,8 +39,7 @@ GLOBAL_LIST_INIT(science_positions, list(
 	"Research Director",
 	"Scientist",
 	"Geneticist",	//Part of both medical and science
-	"Roboticist",
-	"Student Scientist"
+	"Roboticist"
 ))
 
 GLOBAL_LIST_INIT(security_positions, list(
@@ -51,9 +47,7 @@ GLOBAL_LIST_INIT(security_positions, list(
 	"Warden",
 	"Detective",
 	"Security Officer",
-	"Brig Physician",
 	"Security Pod Pilot",
-	"Magistrate",
 	"Security Cadet"
 ))
 
@@ -76,11 +70,7 @@ GLOBAL_LIST_INIT(support_positions, list(
 	"Chaplain",
 	"Clown",
 	"Mime",
-	"Barber",
-	"Magistrate",
-	"Nanotrasen Representative",
-	"Blueshield",
-	"Explorer"
+	"Barber"
 ))
 
 GLOBAL_LIST_INIT(supply_positions, list(
@@ -104,13 +94,11 @@ GLOBAL_LIST_INIT(nonhuman_positions, list(
 ))
 
 GLOBAL_LIST_INIT(whitelisted_positions, list(
-	"Blueshield",
-	"Nanotrasen Representative",
 	"Barber",
 	"Mechanic",
 	"Brig Physician",
 	"Magistrate",
-	"Security Pod Pilot",
+	"Security Pod Pilot"
 ))
 
 

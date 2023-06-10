@@ -106,7 +106,7 @@ GLOBAL_DATUM_INIT(captain_announcement, /datum/announcement/minor, new(do_newsca
 	implants = list()
 
 
-
+/*
 /datum/job/nanotrasenrep
 	title = "Nanotrasen Representative"
 	flag = JOB_NANO
@@ -200,7 +200,7 @@ GLOBAL_DATUM_INIT(captain_announcement, /datum/announcement/minor, new(do_newsca
 	backpack = /obj/item/storage/backpack/blueshield
 	satchel = /obj/item/storage/backpack/satchel_blueshield
 	dufflebag = /obj/item/storage/backpack/duffel/blueshield
-
+*/
 
 /datum/job/judge
 	title = "Magistrate"
