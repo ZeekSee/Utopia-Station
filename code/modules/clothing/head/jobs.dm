@@ -62,6 +62,7 @@
 	desc = "A cap issued to Nanotrasen Representatives."
 	icon_state = "ntrep"
 
+
 //Research Director
 /obj/item/clothing/head/beret/purple
 	name = "scientist beret"
