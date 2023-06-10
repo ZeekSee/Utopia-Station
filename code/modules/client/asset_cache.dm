@@ -204,6 +204,7 @@ GLOBAL_LIST_EMPTY(asset_datums)
 		"large_stamp-ward.png"      = 'icons/misc/paper_icons/large_stamp-ward.png',
 		"talisman.png"              = 'icons/misc/paper_icons/talisman.png',
 		"ntlogo.png"                = 'icons/misc/paper_icons/ntlogo.png',
+		"utopialogo.png"            = 'icons/misc/paper_icons/utopialogo.png',
 		"syndielogo.png"		    = 'icons/misc/paper_icons/syndielogo.png',
 		"large_stamp-mime.png"      = 'icons/misc/paper_icons/large_stamp-mime.png',
 		"thieflogo.png"		    	= 'icons/misc/paper_icons/thieflogo.png',
