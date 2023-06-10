@@ -298,6 +298,10 @@
 	name = "Civilian"
 	icon_state = "Assistant"
 
+/obj/effect/landmark/start/prisoner
+	name = "Prisoner"
+	icon_state = "Assistant"
+
 /obj/effect/landmark/start/chief_engineer
 	name = "Chief Engineer"
 	icon_state = "CE"

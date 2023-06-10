@@ -83,7 +83,8 @@ GLOBAL_LIST_INIT(supply_positions, list(
 GLOBAL_LIST_INIT(service_positions, (list("Head of Personnel") + (support_positions - supply_positions)))
 
 GLOBAL_LIST_INIT(civilian_positions, list(
-	"Civilian"
+	"Civilian",
+	"Prisoner"
 ))
 
 GLOBAL_LIST_INIT(nonhuman_positions, list(

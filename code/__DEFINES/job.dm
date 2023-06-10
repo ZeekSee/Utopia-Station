@@ -55,6 +55,7 @@
 #define JOB_CLOWN				(1<<11)
 #define JOB_MIME				(1<<12)
 #define JOB_CIVILIAN			(1<<13)
+#define JOB_PRISONER			(1<<15)
 #define JOB_EXPLORER			(1<<14)
 
 #define JOBCAT_KARMA				(1<<3)
