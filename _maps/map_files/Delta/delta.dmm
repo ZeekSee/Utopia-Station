@@ -38244,7 +38244,7 @@
 	},
 /obj/effect/decal/cleanable/ash,
 /obj/item/flag/nt{
-	icon_state = "ntflag_rolled";
+	icon_state = "utopiaflag_rolled";
 	rolled = 1
 	},
 /turf/simulated/floor/wood{

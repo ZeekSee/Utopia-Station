@@ -71924,7 +71924,7 @@
 "fbR" = (
 /obj/effect/decal/cleanable/dust,
 /obj/item/flag/nt{
-	icon_state = "ntflag_rolled";
+	icon_state = "utopiaflag_rolled";
 	rolled = 1
 	},
 /obj/effect/decal/cleanable/generic,
@@ -87503,7 +87503,7 @@
 "oXt" = (
 /obj/effect/decal/cleanable/dust,
 /obj/item/flag/nt{
-	icon_state = "ntflag_rolled";
+	icon_state = "utopiaflag_rolled";
 	rolled = 1
 	},
 /obj/effect/decal/cleanable/generic,
