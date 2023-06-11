@@ -1,5 +1,5 @@
 /datum/map/cyberiad
-	name = "Cyberiad"
+	name = "Utopia"
 	map_path = "_maps/map_files/cyberiad/cyberiad.dmm"
 
 	station_name  = "NSS Utopia"
