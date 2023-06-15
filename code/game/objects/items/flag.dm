@@ -50,8 +50,8 @@
 	icon_state = initial(icon_state)
 
 /obj/item/flag/nt
-	name = "Nanotrasen flag"
-	desc = "A flag proudly boasting the logo of NT."
+	name = "Utopia flag"
+	desc = "A flag proudly boasting the logo of Utopia."
 	icon_state = "utopiaflag"
 
 /obj/item/flag/clown
