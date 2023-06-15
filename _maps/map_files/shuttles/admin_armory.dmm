@@ -557,7 +557,7 @@
 /turf/simulated/floor/carpet/royalblack,
 /area/shuttle/administration)
 "rA" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /obj/machinery/light/spot{
 	dir = 8;
 	tag = "icon-tube1 (WEST)"

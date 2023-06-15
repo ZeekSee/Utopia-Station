@@ -1,0 +1,454 @@
+# Query: /obj/item/flag/n
+
+111 results - 7 files
+
+_maps\map_files\Delta\delta.dmm:
+   15563  "bOt" = (
+   15564: /obj/item/flag/utopia,
+   15565  /obj/item/radio/intercom{
+
+   17337  	},
+   17338: /obj/item/flag/utopia,
+   17339  /obj/machinery/light,
+
+   19504  	},
+   19505: /obj/item/flag/utopia,
+   19506  /turf/simulated/floor/wood,
+
+   30555  	},
+   30556: /obj/item/flag/utopia{
+   30557  	pixel_y = -6
+
+   30618  	},
+   30619: /obj/item/flag/utopia{
+   30620  	pixel_y = -6
+
+   38245  /obj/effect/decal/cleanable/ash,
+   38246: /obj/item/flag/utopia{
+   38247  	icon_state = "utopiaflag_rolled";
+
+   46927  	},
+   46928: /obj/item/flag/utopia,
+   46929  /turf/simulated/floor/wood,
+
+   52258  	},
+   52259: /obj/item/flag/utopia,
+   52260  /turf/simulated/floor/plasteel{
+
+   53616  "goS" = (
+   53617: /obj/item/flag/utopia,
+   53618  /obj/machinery/status_display{
+
+   53880  "gss" = (
+   53881: /obj/item/flag/utopia,
+   53882  /obj/machinery/status_display{
+
+   61855  "ikf" = (
+   61856: /obj/item/flag/utopia,
+   61857  /obj/structure/cable{
+
+   69565  "kaL" = (
+   69566: /obj/item/flag/utopia,
+   69567  /obj/structure/cable{
+
+  117397  "vdz" = (
+  117398: /obj/item/flag/utopia,
+  117399  /turf/simulated/floor/plasteel{
+
+  121611  	},
+  121612: /obj/item/flag/utopia,
+  121613  /obj/machinery/light{
+
+  122974  	},
+  122975: /obj/item/flag/utopia{
+  122976  	pixel_y = -6
+
+_maps\map_files\generic\CentComm.dmm:
+    447  "ajU" = (
+    448: /obj/item/flag/utopia,
+    449  /obj/machinery/light{
+
+    714  "apl" = (
+    715: /obj/item/flag/utopia,
+    716  /turf/simulated/floor/carpet/black,
+
+    766  "aqP" = (
+    767: /obj/item/flag/utopia,
+    768  /turf/simulated/floor/grass,
+
+   1698  	},
+   1699: /obj/item/flag/utopia,
+   1700  /turf/simulated/floor/wood,
+
+   3305  	},
+   3306: /obj/item/flag/utopia,
+   3307  /turf/simulated/floor/plasteel{
+
+   5258  /obj/machinery/light/small,
+   5259: /obj/item/flag/utopia,
+   5260  /turf/simulated/floor/wood,
+
+   5690  "cQm" = (
+   5691: /obj/item/flag/utopia,
+   5692  /turf/simulated/floor/plasteel{
+
+   6297  "dlL" = (
+   6298: /obj/item/flag/utopia,
+   6299  /turf/simulated/floor/plasteel{
+
+   6767  	},
+   6768: /obj/item/flag/utopia,
+   6769  /turf/simulated/floor/plasteel{
+
+   6773  "dyQ" = (
+   6774: /obj/item/flag/utopia,
+   6775  /obj/structure/window/reinforced{
+
+   7418  "dQQ" = (
+   7419: /obj/item/flag/utopia,
+   7420  /turf/simulated/floor/plasteel{
+
+   7504  "dTZ" = (
+   7505: /obj/item/flag/utopia,
+   7506  /turf/simulated/floor/plasteel{
+
+   7587  "dVt" = (
+   7588: /obj/item/flag/utopia,
+   7589  /turf/simulated/floor/wood,
+
+  11215  /obj/structure/window/reinforced,
+  11216: /obj/item/flag/utopia,
+  11217  /obj/structure/window/reinforced{
+
+  12819  "gOl" = (
+  12820: /obj/item/flag/utopia,
+  12821  /turf/simulated/floor/wood,
+
+  14012  	},
+  14013: /obj/item/flag/utopia,
+  14014  /turf/simulated/floor/plasteel{
+
+  14018  "hza" = (
+  14019: /obj/item/flag/utopia,
+  14020  /turf/simulated/floor/plasteel{
+
+  16054  	},
+  16055: /obj/item/flag/utopia,
+  16056  /turf/simulated/floor/wood,
+
+  17310  "jrx" = (
+  17311: /obj/item/flag/utopia,
+  17312  /turf/simulated/floor/plasteel{
+
+  17407  "jvq" = (
+  17408: /obj/item/flag/utopia,
+  17409  /obj/structure/closet/medical_wall{
+
+  17799  "jFA" = (
+  17800: /obj/item/flag/utopia,
+  17801  /obj/machinery/status_display/supply_display{
+
+  18359  /obj/machinery/atmospherics/pipe/simple/hidden,
+  18360: /obj/item/flag/utopia,
+  18361  /obj/machinery/light{
+
+  18812  "kkr" = (
+  18813: /obj/item/flag/utopia,
+  18814  /obj/machinery/light/small,
+
+  19495  "kAW" = (
+  19496: /obj/item/flag/utopia,
+  19497  /turf/simulated/floor/wood,
+
+  20088  "kQr" = (
+  20089: /obj/item/flag/utopia,
+  20090  /obj/structure/window/reinforced,
+
+  21990  "lLn" = (
+  21991: /obj/item/flag/utopia,
+  21992  /obj/machinery/light{
+
+  22950  /obj/structure/window/reinforced,
+  22951: /obj/item/flag/utopia,
+  22952  /obj/structure/window/reinforced{
+
+  25410  	},
+  25411: /obj/item/flag/utopia,
+  25412  /turf/simulated/floor/wood,
+
+  26348  /obj/structure/window/reinforced,
+  26349: /obj/item/flag/utopia,
+  26350  /turf/simulated/floor/plasteel{
+
+  26826  "nNb" = (
+  26827: /obj/item/flag/utopia,
+  26828  /turf/simulated/floor/plasteel{
+
+  33697  "reY" = (
+  33698: /obj/item/flag/utopia,
+  33699  /turf/simulated/floor/plasteel{
+
+  35733  "sdz" = (
+  35734: /obj/item/flag/utopia,
+  35735  /turf/simulated/floor/plasteel{
+
+  39113  "tGe" = (
+  39114: /obj/item/flag/utopia,
+  39115  /obj/machinery/light,
+
+  40444  "unO" = (
+  40445: /obj/item/flag/utopia,
+  40446  /obj/machinery/light/small{
+
+  41350  "uId" = (
+  41351: /obj/item/flag/utopia,
+  41352  /turf/simulated/floor/wood,
+
+  41915  	},
+  41916: /obj/item/flag/utopia,
+  41917  /turf/simulated/floor/plasteel{
+
+  43314  /obj/machinery/light/small,
+  43315: /obj/item/flag/utopia,
+  43316  /turf/simulated/floor/plasteel{
+
+  44909  "wvg" = (
+  44910: /obj/item/flag/utopia,
+  44911  /turf/simulated/floor/wood,
+
+  45096  "wyU" = (
+  45097: /obj/item/flag/utopia,
+  45098  /turf/simulated/floor/wood,
+
+  46095  "xbI" = (
+  46096: /obj/item/flag/utopia,
+  46097  /turf/simulated/floor/plasteel{
+
+  46569  "xnh" = (
+  46570: /obj/item/flag/utopia,
+  46571  /obj/machinery/light/small{
+
+  46771  "xsY" = (
+  46772: /obj/item/flag/utopia,
+  46773  /obj/structure/window/reinforced,
+
+_maps\map_files\generic\z2_old.dmm:
+    202  	},
+    203: /obj/item/flag/utopia,
+    204  /turf/simulated/floor/indestructible{
+
+    238  	},
+    239: /obj/item/flag/utopia,
+    240  /turf/simulated/floor/indestructible{
+
+    244  "aqE" = (
+    245: /obj/item/flag/utopia,
+    246  /turf/simulated/floor/indestructible{
+
+    476  "aAA" = (
+    477: /obj/item/flag/utopia,
+    478  /turf/simulated/floor/indestructible{
+
+    997  "aSN" = (
+    998: /obj/item/flag/utopia,
+    999  /turf/simulated/floor/indestructible{
+
+   1576  /obj/structure/flora/ausbushes/ppflowers,
+   1577: /obj/item/flag/utopia,
+   1578  /turf/simulated/floor/indestructible/grass,
+
+   2095  "bRh" = (
+   2096: /obj/item/flag/utopia,
+   2097  /turf/simulated/floor/indestructible{
+
+   4282  "dAR" = (
+   4283: /obj/item/flag/utopia,
+   4284  /turf/simulated/floor/indestructible{
+
+   5699  "ezE" = (
+   5700: /obj/item/flag/utopia,
+   5701  /turf/simulated/floor/indestructible{
+
+   8371  /obj/structure/flora/ausbushes/reedbush,
+   8372: /obj/item/flag/utopia,
+   8373  /obj/machinery/light{
+
+   9986  	},
+   9987: /obj/item/flag/utopia,
+   9988  /turf/simulated/floor/indestructible{
+
+  10419  	},
+  10420: /obj/item/flag/utopia,
+  10421  /turf/simulated/floor/indestructible{
+
+  10858  "ila" = (
+  10859: /obj/item/flag/utopia,
+  10860  /turf/simulated/floor/indestructible{
+
+  11264  "iwu" = (
+  11265: /obj/item/flag/utopia,
+  11266  /turf/simulated/floor/indestructible{
+
+  11558  	},
+  11559: /obj/item/flag/utopia,
+  11560  /turf/simulated/floor/indestructible{
+
+  11565  "iIV" = (
+  11566: /obj/item/flag/utopia,
+  11567  /turf/simulated/floor/indestructible{
+
+  11579  "iJh" = (
+  11580: /obj/item/flag/utopia,
+  11581  /turf/simulated/floor/indestructible{
+
+  13756  "kmt" = (
+  13757: /obj/item/flag/utopia,
+  13758  /obj/structure/window/reinforced{
+
+  14223  "kEe" = (
+  14224: /obj/item/flag/utopia,
+  14225  /turf/simulated/floor/indestructible{
+
+  15149  "lkC" = (
+  15150: /obj/item/flag/utopia,
+  15151  /obj/item/radio/intercom{
+
+  15535  "lyZ" = (
+  15536: /obj/item/flag/utopia,
+  15537  /obj/structure/sign/poster/official/ue_no{
+
+  16290  	},
+  16291: /obj/item/flag/utopia,
+  16292  /turf/simulated/floor/indestructible{
+
+  16487  "mfy" = (
+  16488: /obj/item/flag/utopia,
+  16489  /turf/simulated/floor/indestructible{
+
+  17755  "mZk" = (
+  17756: /obj/item/flag/utopia,
+  17757  /obj/machinery/light{
+
+  19052  "nSt" = (
+  19053: /obj/item/flag/utopia,
+  19054  /turf/simulated/floor/indestructible{
+
+  19413  /obj/structure/flora/ausbushes/sparsegrass,
+  19414: /obj/item/flag/utopia,
+  19415  /turf/simulated/floor/indestructible/grass,
+
+  19633  "oyo" = (
+  19634: /obj/item/flag/utopia,
+  19635  /turf/simulated/floor/indestructible{
+
+  19986  "oMk" = (
+  19987: /obj/item/flag/utopia,
+  19988  /obj/structure/sign/poster/official/random{
+
+  20110  "oRT" = (
+  20111: /obj/item/flag/utopia,
+  20112  /turf/simulated/floor/indestructible{
+
+  21449  /obj/structure/flora/ausbushes/sparsegrass,
+  21450: /obj/item/flag/utopia,
+  21451  /obj/machinery/light,
+
+  21757  "pMa" = (
+  21758: /obj/item/flag/utopia,
+  21759  /turf/simulated/floor/indestructible{
+
+  21987  "pWD" = (
+  21988: /obj/item/flag/utopia,
+  21989  /turf/simulated/floor/indestructible{
+
+  22992  "qCD" = (
+  22993: /obj/item/flag/utopia,
+  22994  /turf/simulated/floor/indestructible{
+
+  23795  "rjK" = (
+  23796: /obj/item/flag/utopia,
+  23797  /obj/machinery/status_display{
+
+  24265  "rwK" = (
+  24266: /obj/item/flag/utopia,
+  24267  /turf/simulated/floor/indestructible{
+
+  24758  "rOy" = (
+  24759: /obj/item/flag/utopia,
+  24760  /turf/simulated/floor/indestructible{
+
+  24780  "rPX" = (
+  24781: /obj/item/flag/utopia,
+  24782  /turf/simulated/floor/indestructible{
+
+  25277  "seJ" = (
+  25278: /obj/item/flag/utopia,
+  25279  /turf/simulated/floor/indestructible{
+
+  26500  "sTP" = (
+  26501: /obj/item/flag/utopia,
+  26502  /turf/simulated/floor/indestructible{
+
+  27737  "tWj" = (
+  27738: /obj/item/flag/utopia,
+  27739  /turf/simulated/floor/indestructible{
+
+  28059  "uik" = (
+  28060: /obj/item/flag/utopia,
+  28061  /turf/simulated/floor/indestructible{
+
+  28817  	},
+  28818: /obj/item/flag/utopia,
+  28819  /turf/simulated/floor/indestructible{
+
+  28979  "uTa" = (
+  28980: /obj/item/flag/utopia,
+  28981  /obj/structure/sign/restroom{
+
+  29446  "vhS" = (
+  29447: /obj/item/flag/utopia,
+  29448  /turf/simulated/floor/indestructible{
+
+  29932  "vDc" = (
+  29933: /obj/item/flag/utopia,
+  29934  /turf/simulated/floor/indestructible{
+
+  30485  "vTo" = (
+  30486: /obj/item/flag/utopia,
+  30487  /turf/simulated/floor/indestructible{
+
+  32749  "xyv" = (
+  32750: /obj/item/flag/utopia,
+  32751  /obj/machinery/status_display{
+
+_maps\map_files\shuttles\admin_admin.dmm:
+  649  "rq" = (
+  650: /obj/item/flag/utopia,
+  651  /obj/machinery/light{
+
+  961  /obj/machinery/atmospherics/pipe/simple/hidden,
+  962: /obj/item/flag/utopia,
+  963  /obj/machinery/light{
+
+_maps\map_files\shuttles\admin_armory.dmm:
+  559  "rA" = (
+  560: /obj/item/flag/utopia,
+  561  /obj/machinery/light/spot{
+
+_maps\map_files\shuttles\admin_hospital.dmm:
+   747  "vL" = (
+   748: /obj/item/flag/utopia,
+   749  /obj/machinery/light{
+
+  1026  /obj/machinery/atmospherics/pipe/simple/hidden,
+  1027: /obj/item/flag/utopia,
+  1028  /obj/machinery/light{
+
+_maps\map_files\shuttles\emergency_mil.dmm:
+  160  "aG" = (
+  161: /obj/item/flag/utopia,
+  162  /turf/simulated/floor/plasteel{
+
+  575  "jJ" = (
+  576: /obj/item/flag/utopia,
+  577  /turf/simulated/floor/plasteel{

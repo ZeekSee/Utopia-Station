@@ -200,7 +200,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon_state = "wood"
 	},
@@ -236,13 +236,13 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon_state = "wood"
 	},
 /area/centcom/zone1)
 "aqE" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	dir = 1;
 	icon_state = "darkgreynavyblue"
@@ -474,7 +474,7 @@
 	},
 /area/vox_station)
 "aAA" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon_state = "dark"
 	},
@@ -995,7 +995,7 @@
 	},
 /area/centcom/supply)
 "aSN" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	dir = 4;
 	icon_state = "darkbluefull"
@@ -1574,7 +1574,7 @@
 "bsB" = (
 /obj/structure/window/reinforced,
 /obj/structure/flora/ausbushes/ppflowers,
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible/grass,
 /area/centcom/specops)
 "bsQ" = (
@@ -2093,7 +2093,7 @@
 	},
 /area/ussp_ship)
 "bRh" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon_state = "grimy"
 	},
@@ -4280,7 +4280,7 @@
 	},
 /area/admin)
 "dAR" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon_state = "darkgreynavyblue"
 	},
@@ -5697,7 +5697,7 @@
 	},
 /area/syndicate_mothership)
 "ezE" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon = 'icons/turf/floors/carpet_black.dmi';
 	icon_state = "carpet"
@@ -8369,7 +8369,7 @@
 "gty" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/reedbush,
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /obj/machinery/light{
 	dir = 1;
 	switchcount = 50
@@ -9984,7 +9984,7 @@
 /obj/item/radio/intercom{
 	pixel_x = -30
 	},
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon = 'icons/turf/floors/carpet_black.dmi';
 	icon_state = "carpet"
@@ -10417,7 +10417,7 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 40
 	},
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon_state = "dark"
 	},
@@ -10856,7 +10856,7 @@
 	},
 /area/centcom/zone1)
 "ila" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	dir = 9;
 	icon_state = "darkredfull"
@@ -11262,7 +11262,7 @@
 	},
 /area/holodeck/source_desert)
 "iwu" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon_state = "sepia"
 	},
@@ -11556,14 +11556,14 @@
 /obj/structure/sign/poster/official/random{
 	pixel_y = -30
 	},
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon = 'icons/turf/floors/carpet_black.dmi';
 	icon_state = "carpet"
 	},
 /area/centcom/specops)
 "iIV" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	dir = 5;
 	icon_state = "darkblue"
@@ -11577,7 +11577,7 @@
 	},
 /area/admin)
 "iJh" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	dir = 8;
 	icon_state = "darkgreenfull"
@@ -13754,7 +13754,7 @@
 	},
 /area/ninja/holding)
 "kmt" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
@@ -14221,7 +14221,7 @@
 	},
 /area/admin)
 "kEe" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	dir = 4;
 	icon_state = "darkbluefull"
@@ -15147,7 +15147,7 @@
 	},
 /area/ussp_ship)
 "lkC" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /obj/item/radio/intercom{
 	pixel_x = 30
 	},
@@ -15533,7 +15533,7 @@
 	},
 /area/centcom/evac)
 "lyZ" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /obj/structure/sign/poster/official/ue_no{
 	pixel_y = 30
 	},
@@ -16288,7 +16288,7 @@
 /obj/structure/sign/evac{
 	pixel_x = 33
 	},
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	dir = 5;
 	icon_state = "whitehall"
@@ -16485,7 +16485,7 @@
 /turf/simulated/floor/wood,
 /area/secret/gaybar)
 "mfy" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon_state = "grimy"
 	},
@@ -17753,7 +17753,7 @@
 	},
 /area/centcom/specops)
 "mZk" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /obj/machinery/light{
 	dir = 8;
 	switchcount = 50
@@ -19050,7 +19050,7 @@
 	},
 /area/syndicate_mothership)
 "nSt" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon_state = "dark"
 	},
@@ -19411,7 +19411,7 @@
 /area/holodeck/source_basketball)
 "okp" = (
 /obj/structure/flora/ausbushes/sparsegrass,
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible/grass,
 /area/centcom/evac)
 "olk" = (
@@ -19631,7 +19631,7 @@
 	},
 /area/syndicate_mothership)
 "oyo" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon_state = "dark"
 	},
@@ -19984,7 +19984,7 @@
 /turf/simulated/floor/carpet/black,
 /area/wizard_station)
 "oMk" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /obj/structure/sign/poster/official/random{
 	pixel_x = 32
 	},
@@ -20108,7 +20108,7 @@
 	},
 /area/centcom/specops)
 "oRT" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon_state = "dark"
 	},
@@ -20333,7 +20333,7 @@
 /area/event_zone)
 "pbI" = (
 /obj/structure/table/wood,
-/obj/item/clothing/suit/hooded/hoodie/nt,
+/obj/item/clothing/suit/hooded/hoodie/utopia,
 /turf/simulated/floor/indestructible{
 	icon_state = "floor"
 	},
@@ -21447,7 +21447,7 @@
 /area/admin)
 "pDj" = (
 /obj/structure/flora/ausbushes/sparsegrass,
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /obj/machinery/light,
 /turf/simulated/floor/indestructible/grass,
 /area/centcom/evac)
@@ -21755,7 +21755,7 @@
 	},
 /area/centcom/bridge)
 "pMa" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon = 'icons/turf/floors/carpet_black.dmi';
 	icon_state = "carpet"
@@ -21985,7 +21985,7 @@
 	},
 /area/admin)
 "pWD" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	dir = 1;
 	icon_state = "darkbrownfull"
@@ -22990,7 +22990,7 @@
 /turf/simulated/floor/indestructible/snow,
 /area/ninja/outside)
 "qCD" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon_state = "dark"
 	},
@@ -23793,7 +23793,7 @@
 	},
 /area/centcom/zone3)
 "rjK" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /obj/machinery/status_display{
 	pixel_x = -32
 	},
@@ -24263,7 +24263,7 @@
 /turf/space,
 /area/ussp_ship)
 "rwK" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	dir = 4;
 	icon_state = "darkred"
@@ -24756,7 +24756,7 @@
 	},
 /area/centcom/zone3)
 "rOy" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon_state = "dark"
 	},
@@ -24778,7 +24778,7 @@
 	},
 /area/ussp_ship)
 "rPX" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	dir = 10;
 	icon_state = "darkred"
@@ -25275,7 +25275,7 @@
 	},
 /area/ussp_ship)
 "seJ" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon = 'icons/turf/floors/carpet_black.dmi';
 	icon_state = "carpet"
@@ -26498,7 +26498,7 @@
 	},
 /area/centcom/specops)
 "sTP" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon_state = "woodalt"
 	},
@@ -27735,7 +27735,7 @@
 /turf/simulated/floor/plasteel,
 /area/ninja/outpost)
 "tWj" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon = 'icons/turf/floors/carpet_black.dmi';
 	icon_state = "carpet"
@@ -28057,7 +28057,7 @@
 	},
 /area/ninja/outpost)
 "uik" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	dir = 8;
 	icon_state = "darkred"
@@ -28815,7 +28815,7 @@
 	dir = 8;
 	network = list("CentComm")
 	},
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon_state = "dark"
 	},
@@ -28977,7 +28977,7 @@
 	},
 /area/space)
 "uTa" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /obj/structure/sign/restroom{
 	pixel_y = -30
 	},
@@ -29444,7 +29444,7 @@
 /turf/simulated/floor/holofloor,
 /area/holodeck/source_boxingcourt)
 "vhS" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon_state = "dark"
 	},
@@ -29930,7 +29930,7 @@
 	},
 /area/vox_station)
 "vDc" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	dir = 1;
 	icon_state = "floor"
@@ -30483,7 +30483,7 @@
 	},
 /area/centcom/srtops)
 "vTo" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/indestructible{
 	icon_state = "dark"
 	},
@@ -32747,7 +32747,7 @@
 	},
 /area/syndicate_mothership)
 "xyv" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /obj/machinery/status_display{
 	pixel_y = -30
 	},

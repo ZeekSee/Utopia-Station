@@ -647,7 +647,7 @@
 	},
 /area/shuttle/administration)
 "rq" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /obj/machinery/light{
 	dir = 4
 	},
@@ -959,7 +959,7 @@
 /area/shuttle/administration)
 "Jq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /obj/machinery/light{
 	dir = 4
 	},

@@ -49,9 +49,9 @@
 /obj/item/flag/proc/updateFlagIcon()
 	icon_state = initial(icon_state)
 
-/obj/item/flag/nt
-	name = "Nanotrasen flag"
-	desc = "A flag proudly boasting the logo of NT."
+/obj/item/flag/utopia
+	name = "Utopia Flag"
+	desc = "A flag proudly boasting the logo of Utopia StationT."
 	icon_state = "utopiaflag"
 
 /obj/item/flag/clown

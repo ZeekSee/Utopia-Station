@@ -45284,7 +45284,7 @@
 /turf/simulated/mineral/ancient,
 /area/crew_quarters/locker)
 "gZI" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/wood,
 /area/blueshield)
 "hab" = (
@@ -45379,7 +45379,7 @@
 /obj/structure/cable/orange{
 	icon_state = "4-8"
 	},
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/wood,
 /area/blueshield)
 "hbZ" = (
@@ -48267,7 +48267,7 @@
 /turf/simulated/floor/grass,
 /area/hallway/secondary/exit)
 "iaW" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/wood,
 /area/ntrep)
 "ibf" = (
@@ -55265,7 +55265,7 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/fore)
 "ksW" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -66142,7 +66142,7 @@
 	},
 /area/maintenance/gambling_den2)
 "oeu" = (
-/obj/item/flag/nt,
+/obj/item/flag/utopia,
 /turf/simulated/floor/wood,
 /area/crew_quarters/heads/hop)
 "oez" = (
