@@ -30,7 +30,7 @@
 #define JOB_CMO				(1<<3)
 #define JOB_DOCTOR			(1<<4)
 #define JOB_GENETICIST		(1<<5)
-#define JOB_VIROLOGIST		(1<<6)
+#define JOB_VIROLOGIST		(1<<1)
 #define JOB_PSYCHIATRIST		(1<<7)
 #define JOB_ROBOTICIST		(1<<8)
 #define JOB_PARAMEDIC			(1<<9)
