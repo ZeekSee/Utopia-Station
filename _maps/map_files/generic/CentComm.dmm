@@ -445,7 +445,7 @@
 /turf/simulated/wall/indestructible/fakeglass,
 /area/centcom/zone1)
 "ajU" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /obj/machinery/light{
 	dir = 4
 	},
@@ -712,7 +712,7 @@
 /turf/simulated/floor/wood,
 /area/centcom/bridge)
 "apl" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/carpet/black,
 /area/centcom/court)
 "app" = (
@@ -764,7 +764,7 @@
 	},
 /area/centcom/zone1)
 "aqP" = (
-/obj/item/flag/nt,
+/obj/item/flag/sec,
 /turf/simulated/floor/grass,
 /area/centcom/specops)
 "aqV" = (
@@ -1696,7 +1696,7 @@
 /obj/machinery/status_display{
 	pixel_x = -32
 	},
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/wood,
 /area/centcom/bridge)
 "aOB" = (
@@ -3303,7 +3303,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/item/flag/nt,
+/obj/item/flag/sec,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -4320,6 +4320,10 @@
 	icon_state = "darkjail"
 	},
 /area/syndicate_mothership/jail)
+"cjx" = (
+/obj/item/flag/sec,
+/turf/simulated/floor/wood,
+/area/centcom/specops)
 "cjy" = (
 /obj/structure/chair{
 	dir = 1
@@ -5256,7 +5260,7 @@
 /area/centcom/zone1)
 "cEN" = (
 /obj/machinery/light/small,
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/wood,
 /area/centcom/zone1)
 "cEQ" = (
@@ -5688,7 +5692,7 @@
 	},
 /area/centcom/evac)
 "cQm" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -6295,7 +6299,7 @@
 /turf/simulated/floor/indestructible/asteroid,
 /area/syndicate_mothership/outside)
 "dlL" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "darkblue"
@@ -6765,13 +6769,13 @@
 /obj/machinery/ai_status_display{
 	pixel_x = 32
 	},
-/obj/item/flag/nt,
+/obj/item/flag/sec,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
 /area/centcom/specops)
 "dyQ" = (
-/obj/item/flag/nt,
+/obj/item/flag/sec,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
@@ -7416,7 +7420,7 @@
 	},
 /area/syndicate_mothership/jail)
 "dQQ" = (
-/obj/item/flag/nt,
+/obj/item/flag/sec,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -7502,7 +7506,7 @@
 /turf/simulated/floor/indestructible/beach/water/deep/dense,
 /area/ninja/outside)
 "dTZ" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -7585,7 +7589,7 @@
 /turf/simulated/floor/carpet,
 /area/syndicate_mothership/control)
 "dVt" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/wood,
 /area/centcom/specops)
 "dVZ" = (
@@ -11213,7 +11217,7 @@
 /area/centcom/zone1)
 "fTt" = (
 /obj/structure/window/reinforced,
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
@@ -12265,6 +12269,10 @@
 	icon_state = "dark"
 	},
 /area/syndicate_mothership/control)
+"gwv" = (
+/obj/item/flag/sec,
+/turf/simulated/floor/wood,
+/area/centcom/zone2)
 "gwG" = (
 /obj/structure/table/reinforced,
 /obj/machinery/kitchen_machine/microwave/upgraded{
@@ -12817,7 +12825,7 @@
 	},
 /area/centcom/zone1)
 "gOl" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/wood,
 /area/centcom/bridge)
 "gOv" = (
@@ -14010,13 +14018,13 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
 /area/centcom/zone1)
 "hza" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/plasteel{
 	icon_state = "grimy"
 	},
@@ -16052,7 +16060,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/item/flag/nt,
+/obj/item/flag/sec,
 /turf/simulated/floor/wood,
 /area/centcom/zone2)
 "iKf" = (
@@ -17308,7 +17316,7 @@
 	},
 /area/syndicate_mothership/outside)
 "jrx" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/plasteel{
 	dir = 10;
 	icon_state = "darkblue"
@@ -17405,7 +17413,7 @@
 /turf/simulated/floor/indestructible/abductor,
 /area/abductor_ship)
 "jvq" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /obj/structure/closet/medical_wall{
 	pixel_y = 32
 	},
@@ -17797,7 +17805,7 @@
 	},
 /area/shuttle/administration)
 "jFA" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /obj/machinery/status_display/supply_display{
 	pixel_x = -32
 	},
@@ -18357,7 +18365,7 @@
 /area/abductor_ship)
 "jXC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /obj/machinery/light{
 	dir = 4
 	},
@@ -18810,7 +18818,7 @@
 /turf/simulated/floor/wood,
 /area/centcom/bridge)
 "kkr" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /obj/machinery/light/small,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
@@ -19493,7 +19501,7 @@
 /turf/simulated/floor/carpet/black,
 /area/wizard_station)
 "kAW" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/wood,
 /area/centcom/court)
 "kBa" = (
@@ -20086,7 +20094,7 @@
 	},
 /area/syndicate_mothership/elite_squad)
 "kQr" = (
-/obj/item/flag/nt,
+/obj/item/flag/sec,
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 4
@@ -21988,7 +21996,7 @@
 /turf/simulated/floor/indestructible/abductor,
 /area/abductor_ship)
 "lLn" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /obj/machinery/light{
 	dir = 4
 	},
@@ -22948,7 +22956,7 @@
 /area/syndicate_mothership/elite_squad)
 "mli" = (
 /obj/structure/window/reinforced,
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /obj/structure/window/reinforced{
 	dir = 4
 	},
@@ -25408,7 +25416,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/wood,
 /area/centcom/zone1)
 "nhl" = (
@@ -26346,7 +26354,7 @@
 /area/centcom/zone1)
 "nCx" = (
 /obj/structure/window/reinforced,
-/obj/item/flag/nt,
+/obj/item/flag/sec,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -26824,7 +26832,7 @@
 	},
 /area/syndicate_mothership/elite_squad)
 "nNb" = (
-/obj/item/flag/nt,
+/obj/item/flag/sec,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -33695,7 +33703,7 @@
 	},
 /area/syndicate_mothership/infteam)
 "reY" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/plasteel{
 	icon_state = "barber"
 	},
@@ -35731,7 +35739,7 @@
 	},
 /area/centcom/jail)
 "sdz" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkblue"
 	},
@@ -39111,8 +39119,8 @@
 	},
 /area/syndicate_mothership/elite_squad)
 "tGe" = (
-/obj/item/flag/nt,
 /obj/machinery/light,
+/obj/item/flag/sec,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -40442,7 +40450,7 @@
 /turf/simulated/floor/grass,
 /area/centcom/evac)
 "unO" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /obj/machinery/light/small{
 	dir = 1
 	},
@@ -41348,7 +41356,7 @@
 /turf/simulated/floor/carpet/black,
 /area/syndicate_mothership/control)
 "uId" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/wood,
 /area/centcom/zone2)
 "uIy" = (
@@ -41913,7 +41921,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/item/flag/nt,
+/obj/item/flag/sec,
 /turf/simulated/floor/plasteel{
 	dir = 9;
 	icon_state = "navybluealt"
@@ -43312,7 +43320,7 @@
 /area/syndicate_mothership)
 "vHf" = (
 /obj/machinery/light/small,
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -44907,7 +44915,7 @@
 	},
 /area/shuttle/syndicate)
 "wvg" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/wood,
 /area/centcom/jail)
 "wvo" = (
@@ -45094,7 +45102,7 @@
 	},
 /area/centcom/court)
 "wyU" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/wood,
 /area/centcom/zone1)
 "wyW" = (
@@ -46093,7 +46101,7 @@
 	},
 /area/centcom/jail)
 "xbI" = (
-/obj/item/flag/nt,
+/obj/item/flag/syndi,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -46567,10 +46575,10 @@
 	},
 /area/centcom/zone3)
 "xnh" = (
-/obj/item/flag/nt,
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/item/flag/sec,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -46769,7 +46777,7 @@
 	},
 /area/shuttle/syndicate)
 "xsY" = (
-/obj/item/flag/nt,
+/obj/item/flag/sec,
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 8
@@ -88096,7 +88104,7 @@ iwS
 oUA
 rnN
 wsY
-uId
+gwv
 kWm
 tLO
 lxE
@@ -94532,7 +94540,7 @@ rgi
 mYF
 xxx
 oIc
-dVt
+cjx
 qfj
 asI
 pLN
@@ -95299,7 +95307,7 @@ fAg
 abk
 nAN
 bNp
-dVt
+cjx
 daM
 oIc
 oIc
@@ -96586,9 +96594,9 @@ nAN
 nAN
 nAN
 nAN
-dVt
+cjx
 fCV
-dVt
+cjx
 nAN
 rFY
 azT
@@ -102448,7 +102456,7 @@ kcU
 daj
 elD
 onc
-kAE
+dlL
 oKG
 tak
 wUF
