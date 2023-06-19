@@ -11,7 +11,7 @@
 	name = "vampire"
 	config_tag = "vampire"
 	restricted_jobs = list("AI", "Cyborg")
-	protected_jobs = list("Peacemaker", "Peacemaker Cadet", "Warden", "Detective", "Peacemaker's Leader", "Captain", "Blueshield", "Nanotrasen Representative", "Security Pod Pilot", "Magistrate", "Chaplain", "Brig Physician", "Internal Affairs Agent", "Nanotrasen Navy Officer", "Nanotrasen Navy Field Officer", "Special Operations Officer", "Supreme Commander", "Syndicate Officer")
+	protected_jobs = list("Peacemaker", "Peacemaker Cadet", "Warden", "Detective", "Peacemakers Leader", "Captain", "Blueshield", "Nanotrasen Representative", "Security Pod Pilot", "Magistrate", "Chaplain", "Brig Physician", "Internal Affairs Agent", "Nanotrasen Navy Officer", "Nanotrasen Navy Field Officer", "Special Operations Officer", "Supreme Commander", "Syndicate Officer")
 	protected_species = list("Machine", "Голем")
 	required_players = 15
 	required_enemies = 1

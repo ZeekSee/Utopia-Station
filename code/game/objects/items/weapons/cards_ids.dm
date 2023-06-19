@@ -912,7 +912,7 @@
 	item_state = "trainee-id"
 
 /obj/item/card/id/hos
-	name = "Peacemaker's Leader ID"
+	name = "Peacemakers Leader ID"
 	registered_name = "Peace'Leader"
 	icon_state = "HoS"
 	item_state = "hos-id"
@@ -1121,7 +1121,7 @@
 		if("cargo")
 			return "Supply"
 		if("HoS")
-			return "Peacemaker's Leader"
+			return "Peacemakers Leader"
 		if("CMO")
 			return "Chief Medical Officer"
 		if("RD")

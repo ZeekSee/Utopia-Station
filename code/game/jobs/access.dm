@@ -331,7 +331,7 @@
 		if(ACCESS_HOP)
 			return "Head of Personnel"
 		if(ACCESS_HOS)
-			return "Peacemaker's Leader"
+			return "Peacemakers Leader"
 		if(ACCESS_CE)
 			return "Chief Engineer"
 		if(ACCESS_RC_ANNOUNCE)

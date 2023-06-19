@@ -1989,8 +1989,8 @@
 	toysay = "Papers, please!"
 
 /obj/item/toy/figure/hos
-	name = "Peacemaker's Leader action figure"
-	desc = "The bloodlust-filled Peacemaker's Leader, from Space Life's SS12 figurine collection."
+	name = "Peacemakers Leader action figure"
+	desc = "The bloodlust-filled Peacemakers Leader, from Space Life's SS12 figurine collection."
 	icon_state = "hos"
 	toysay = "Space law? What?"
 

@@ -320,7 +320,7 @@
 			var/datum/job/cadet = SSjobs.GetJob("Peacemaker Cadet")
 			var/datum/job/officer = SSjobs.GetJob("Peacemaker")
 			var/datum/job/warden = SSjobs.GetJob("Warden")
-			var/datum/job/hos = SSjobs.GetJob("Peacemaker's Leader")
+			var/datum/job/hos = SSjobs.GetJob("Peacemakers Leader")
 			count += (officer.current_positions + warden.current_positions + hos.current_positions + cadet.current_positions)
 			if(job.current_positions > (config.assistantratio * count))
 				if(count >= 5) // if theres more than 5 security on the station just let assistants join regardless, they should be able to handle the tide

@@ -125,7 +125,7 @@
 	channels = list("Science" = 1, "Command" = 1)
 
 /obj/item/encryptionkey/heads/hos
-	name = "Peacemaker's Leader Encryption Key"
+	name = "Peacemakers Leader Encryption Key"
 	icon_state = "hos_cypherkey"
 	channels = list("Security" = 1, "Command" = 1)
 

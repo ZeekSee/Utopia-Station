@@ -65,7 +65,7 @@
 		// Security
 		"Brig Physician" = "secradio",
 		"Detective" = "secradio",
-		"Peacemaker's Leader" = "secradio",
+		"Peacemakers Leader" = "secradio",
 		"Internal Affairs Agent" = "secradio",
 		"Magistrate" = "secradio",
 		"Peacemaker" = "secradio",
@@ -88,7 +88,7 @@
 		"Mime" = "srvradio",
 	)
 	/// List of Command jobs
-	var/list/heads = list("Captain", "Head of Personnel", "Nanotrasen Representative", "Blueshield", "Chief Engineer", "Chief Medical Officer", "Research Director", "Peacemaker's Leader", "Magistrate", "AI", "Syndicate Research Director", "Syndicate Comms Officer")
+	var/list/heads = list("Captain", "Head of Personnel", "Nanotrasen Representative", "Blueshield", "Chief Engineer", "Chief Medical Officer", "Research Director", "Peacemakers Leader", "Magistrate", "AI", "Syndicate Research Director", "Syndicate Comms Officer")
 	/// List of ERT jobs
 	var/list/ert_jobs = list("Emergency Response Team Officer", "Emergency Response Team Engineer", "Emergency Response Team Medic", "Emergency Response Team Leader", "Emergency Response Team Member")
 	/// List of CentComm jobs

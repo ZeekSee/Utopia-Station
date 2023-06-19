@@ -66,12 +66,12 @@
 /datum/gear/accessory/holobadge
 	display_name = "holobadge, pin"
 	path = /obj/item/clothing/accessory/holobadge
-	allowed_roles = list("Peacemaker's Leader", "Warden", "Detective", "Peacemaker", "Peacemaker Cadet", "Peacemaker Pod Pilot")
+	allowed_roles = list("Peacemakers Leader", "Warden", "Detective", "Peacemaker", "Peacemaker Cadet", "Peacemaker Pod Pilot")
 
 /datum/gear/accessory/holobadge_n
 	display_name = "holobadge, cord"
 	path = /obj/item/clothing/accessory/holobadge/cord
-	allowed_roles = list("Peacemaker's Leader", "Warden", "Detective", "Peacemaker", "Peacemaker Cadet", "Peacemaker Pod Pilot")
+	allowed_roles = list("Peacemakers Leader", "Warden", "Detective", "Peacemaker", "Peacemaker Cadet", "Peacemaker Pod Pilot")
 
 /datum/gear/accessory/tieblue
 	display_name = "tie, blue"
@@ -170,7 +170,7 @@
 /datum/gear/accessory/armband_job/sec
 	display_name = " armband, Peacemaker"
 	path = /obj/item/clothing/accessory/armband/sec
-	allowed_roles = list("Peacemaker's Leader", "Warden", "Detective", "Peacemaker Officer", "Peacemaker Cadet", "Brig Physician", "Peacemaker Pod Pilot")
+	allowed_roles = list("Peacemakers Leader", "Warden", "Detective", "Peacemaker Officer", "Peacemaker Cadet", "Brig Physician", "Peacemaker Pod Pilot")
 
 /datum/gear/accessory/armband_job/cargo
 	display_name = "cargo armband"

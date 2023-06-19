@@ -136,7 +136,7 @@
 	preset = TRUE
 
 /obj/item/reagent_containers/food/drinks/mug/hos
-	name = "Peacemaker's Leader mug"
+	name = "Peacemakers Leader mug"
 	desc = "If only your officers were as robust as this coffee's flavor!"
 	icon_state = "mug_hos"
 	preset = TRUE

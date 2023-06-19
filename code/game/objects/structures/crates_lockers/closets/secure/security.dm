@@ -78,7 +78,7 @@
 */
 
 /obj/structure/closet/secure_closet/hos
-	name = "Peacemaker's Leader locker"
+	name = "Peacemakers Leader locker"
 	req_access = list(ACCESS_HOS)
 	icon_state = "hossecure1"
 	icon_closed = "hossecure"

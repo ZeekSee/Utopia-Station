@@ -165,11 +165,11 @@ LINEN BINS
 	nightmare_messages = list("chemists making meth", "cryo it off", "where is the defib", "no biomass")
 
 /obj/item/bedsheet/hos
-	name = "Peacemaker's Leader bedsheet"
+	name = "Peacemakers Leader bedsheet"
 	desc = "It is decorated with a shield emblem.  While crime doesn't sleep, you do, but you are still THE LAW!"
 	icon_state = "sheethos"
 	item_color = "hosred"
-	dream_messages = list("authority", "a silvery ID", "handcuffs", "a baton", "a flashbang", "sunglasses", "the peacemaker's leader")
+	dream_messages = list("authority", "a silvery ID", "handcuffs", "a baton", "a flashbang", "sunglasses", "the peacemakers leader")
 	nightmare_messages = list("the clown", "a toolbox", "sHiTcUrItY", "why did you put them in for 50 minutes")
 
 

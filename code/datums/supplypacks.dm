@@ -222,7 +222,7 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 	containertype = /obj/structure/closet/crate/secure/gear
 	access = ACCESS_SECURITY
 	group = SUPPLY_SECURITY
-	announce_beacons = list("Security" = list("Peacemaker's Leader Desk", "Warden", "Peacemaker"))
+	announce_beacons = list("Security" = list("Peacemakers Leader Desk", "Warden", "Peacemaker"))
 
 
 /datum/supply_packs/security/supplies
@@ -327,7 +327,7 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 	name = "HEADER"
 	containertype = /obj/structure/closet/crate/secure/weapon
 	access = ACCESS_ARMORY
-	announce_beacons = list("Security" = list("Warden", "Peacemaker's Leader Desk"))
+	announce_beacons = list("Security" = list("Warden", "Peacemakers Leader Desk"))
 
 ///// Armor: Specialist
 

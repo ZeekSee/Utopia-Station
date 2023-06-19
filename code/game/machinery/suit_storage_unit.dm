@@ -86,7 +86,7 @@
 	req_access = list(ACCESS_SECURITY)
 
 /obj/machinery/suit_storage_unit/security/hos
-	name = "Peacemaker's Leader suit storage unit"
+	name = "Peacemakers Leader suit storage unit"
 	suit_type = /obj/item/clothing/suit/space/hardsuit/security/hos
 	storage_type = /obj/item/tank/internals/oxygen/red
 	req_access = list(ACCESS_HOS)

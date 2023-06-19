@@ -375,7 +375,7 @@
 	icon_state = "Robo"
 
 /obj/effect/landmark/start/head_of_security
-	name = "Peacemaker's Leader"
+	name = "Peacemakers Leader"
 	icon_state = "HoS"
 
 /obj/effect/landmark/start/warden

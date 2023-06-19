@@ -247,14 +247,14 @@
 	ks2type = /obj/item/encryptionkey/heads/rd
 
 /obj/item/radio/headset/heads/hos
-	name = "Peacemaker's Leader headset"
+	name = "Peacemakers Leader headset"
 	desc = "The headset of the man who protects your worthless lives."
 	icon_state = "com_headset"
 	item_state = "headset"
 	ks2type = /obj/item/encryptionkey/heads/hos
 
 /obj/item/radio/headset/heads/hos/alt
-	name = "\proper the Peacemaker's Leader bowman headset"
+	name = "\proper the Peacemakers Leader bowman headset"
 	desc = "The headset of the man in charge of keeping order and protecting the station. Protects ears from flashbangs."
 	flags = EARBANGPROTECT
 	icon_state = "com_headset_alt"

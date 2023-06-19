@@ -1,5 +1,5 @@
 /datum/job/hos
-	title = "Peacemaker's Leader"
+	title = "Peacemakers Leader"
 	flag = JOB_HOS
 	department_flag = JOBCAT_ENGSEC
 	total_positions = 1
@@ -25,7 +25,7 @@
 	outfit = /datum/outfit/job/hos
 
 /datum/outfit/job/hos
-	name = "Peacemaker's Leader"
+	name = "Peacemakers Leader"
 	jobtype = /datum/job/hos
 
 	uniform = /obj/item/clothing/under/rank/head_of_security
@@ -60,8 +60,8 @@
 	total_positions = 1
 	spawn_positions = 1
 	is_security = 1
-	supervisors = "the Peacemaker's Leader"
-	department_head = list("Peacemaker's Leader")
+	supervisors = "the Peacemakers Leader"
+	department_head = list("Peacemakers Leader")
 	selection_color = "#ffeeee"
 	access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_ARMORY, ACCESS_COURT, ACCESS_MAINT_TUNNELS, ACCESS_MORGUE, ACCESS_WEAPONS)
 	minimal_access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_ARMORY, ACCESS_COURT, ACCESS_MAINT_TUNNELS, ACCESS_WEAPONS)
@@ -106,8 +106,8 @@
 	total_positions = 1
 	spawn_positions = 1
 	is_security = 1
-	supervisors = "the Peacemaker's Leader"
-	department_head = list("Peacemaker's Leader")
+	supervisors = "the Peacemakers Leader"
+	department_head = list("Peacemakers Leader")
 	selection_color = "#ffeeee"
 	access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_FORENSICS_LOCKERS, ACCESS_MORGUE, ACCESS_MAINT_TUNNELS, ACCESS_COURT, ACCESS_WEAPONS)
 	minimal_access = list(ACCESS_SEC_DOORS, ACCESS_FORENSICS_LOCKERS, ACCESS_MORGUE, ACCESS_MAINT_TUNNELS, ACCESS_COURT, ACCESS_WEAPONS)
@@ -166,8 +166,8 @@
 	total_positions = 7
 	spawn_positions = 7
 	is_security = 1
-	supervisors = "Peacemaker's Leader"
-	department_head = list("Peacemaker's Leader")
+	supervisors = "Peacemakers Leader"
+	department_head = list("Peacemakers Leader")
 	selection_color = "#ffeeee"
 	access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_COURT, ACCESS_MAINT_TUNNELS, ACCESS_MORGUE, ACCESS_WEAPONS)
 	minimal_access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_COURT, ACCESS_MAINT_TUNNELS, ACCESS_WEAPONS)
@@ -205,7 +205,7 @@
 	flag = JOB_CADET
 	total_positions = 3
 	spawn_positions = 3
-	department_head = list("Peacemaker's Leader", "Peacemaker")
+	department_head = list("Peacemakers Leader", "Peacemaker")
 	selection_color = "#ffeeee"
 	alt_titles = list("Peacemaker Assistant", "Peacemaker Graduate")
 	exp_requirements = 180
@@ -246,8 +246,8 @@
 	total_positions = 1
 	spawn_positions = 1
 	is_security = 1
-	supervisors = "the Peacemaker's Leader"
-	department_head = list("Peacemaker's Leader")
+	supervisors = "the Peacemakers Leader"
+	department_head = list("Peacemakers Leader")
 	selection_color = "#ffeeee"
 	access = list(ACCESS_MEDICAL, ACCESS_MORGUE, ACCESS_SURGERY, ACCESS_CHEMISTRY, ACCESS_VIROLOGY, ACCESS_GENETICS, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_COURT, ACCESS_MAINT_TUNNELS)
 	minimal_access = list(ACCESS_MEDICAL, ACCESS_MORGUE, ACCESS_SURGERY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_COURT, ACCESS_MAINT_TUNNELS)
@@ -281,8 +281,8 @@
 	total_positions = 1
 	spawn_positions = 1
 	is_security = 1
-	supervisors = "the Peacemaker's Leader"
-	department_head = list("Peacemaker's Leader")
+	supervisors = "the Peacemakers Leader"
+	department_head = list("Peacemakers Leader")
 	selection_color = "#ffeeee"
 	access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_COURT, ACCESS_MAINT_TUNNELS, ACCESS_MORGUE, ACCESS_WEAPONS, ACCESS_PILOT, ACCESS_EXTERNAL_AIRLOCKS)
 	minimal_access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_COURT, ACCESS_MAINT_TUNNELS, ACCESS_WEAPONS, ACCESS_PILOT, ACCESS_EXTERNAL_AIRLOCKS)

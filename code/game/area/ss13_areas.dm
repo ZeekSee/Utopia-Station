@@ -1142,7 +1142,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "head_quarters"
 
 /area/crew_quarters/heads/hos
-	name = "\improper Peacemaker's Leader Quarters"
+	name = "\improper Peacemakers Leader Quarters"
 	icon_state = "head_quarters"
 
 /area/crew_quarters/heads/cmo

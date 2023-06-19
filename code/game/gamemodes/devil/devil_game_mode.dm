@@ -2,7 +2,7 @@
 	name = "devil"
 	config_tag = "devil"
 	protected_jobs = list("Peacemaker", "Peacemaker Cadet", "Warden", "Detective", "Nanotrasen Representative", "Peacemaker Pod Pilot", "Magistrate",
-						 "Internal Affairs Agent", "Librarian", "Chaplain", "Peacemaker's Leader", "Captain",  "Brig Physician",
+						 "Internal Affairs Agent", "Librarian", "Chaplain", "Peacemakers Leader", "Captain",  "Brig Physician",
 						 "Nanotrasen Navy Officer", "Special Operations Officer", "AI", "Cyborg", "Nanotrasen Navy Field Officer", "Supreme Commander")
 	required_players = 2
 	required_enemies = 1

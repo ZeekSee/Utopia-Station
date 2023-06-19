@@ -151,15 +151,15 @@
 
 //Security
 /obj/item/clothing/head/HoS
-	name = "Peacemaker's Leader cap"
-	desc = "The robust standard-issue cap of the Peacemaker's Leader. For showing the officers who's in charge."
+	name = "Peacemakers Leader cap"
+	desc = "The robust standard-issue cap of the Peacemakers Leader. For showing the officers who's in charge."
 	icon_state = "hoscap"
 	armor = list("melee" = 40, "bullet" = 30, "laser" = 30, "energy" = 10, "bomb" = 25, "bio" = 10, "rad" = 0, "fire" = 50, "acid" = 60)
 	strip_delay = 80
 
 /obj/item/clothing/head/HoS/beret
-	name = "Peacemaker's Leader beret"
-	desc = "A robust beret for the Peacemaker's Leader, for looking stylish while not sacrificing protection."
+	name = "Peacemakers Leader beret"
+	desc = "A robust beret for the Peacemakers Leader, for looking stylish while not sacrificing protection."
 	icon_state = "beret_hos_black"
 	snake_fashion = /datum/snake_fashion/head/beret_hos_black
 
