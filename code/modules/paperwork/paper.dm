@@ -1148,12 +1148,12 @@
 	info = "<font face=\"Verdana\" color=black><center><H3>Отдел снабжения</H3></center><center><B>Регистрационная форма для подтверждения заказа</B></center><BR>Имя заявителя: <span class=\"paper_field\"></span><BR>Должность заявителя: <span class=\"paper_field\"></span><BR>Подробное объяснение о необходимости заказа: <span class=\"paper_field\"></span><BR><BR>Время: <span class=\"paper_field\"></span><BR>Подпись заявителя: <span class=\"paper_field\"></span><BR>Подпись руководителя: <span class=\"paper_field\"></span><BR>Подпись сотрудника снабжения: <span class=\"paper_field\"></span><BR><HR><center><font size = \"1\"><I>Данная форма является приложением для оригинального автоматического документа, полученного с рук заявителя. Для подтверждения заказа заявителя необходимы указанные подписи и соответствующие печати отдела по заказу.<BR></font>"
 	footer = null
 
-//Служба безопасности
+//Миротворцы
 /obj/item/paper/form/NT_SEC_01
 	name = "Форма UT-SEC-01"
 	id = "UT-SEC-01"
 	altername = "Свидетельские показания"
-	category = "Служба безопасности"
+	category = "Миротворцы"
 	info = "<font face=\"Verdana\" color=black><center><font size=\"4\"><B>Информация о свидетеле</B></font></center><BR><table></td><tr><td>Имя свидетеля:<BR><font size = \"1\">Полностью и без ошибок</font><td><span class=\"paper_field\"></span><BR></td><tr><td>Номер аккаунта свидетеля:<BR><font size = \"1\">Эта информация есть у главы персонала</font><td><span class=\"paper_field\"></span><BR></td><tr><td>Должность свидетеля:<BR><font size = \"1\">Указано на ID карте</font><td><span class=\"paper_field\"></span><BR></td></tr></table><BR><HR><BR><center><font size=\"4\"><B>Свидетельство </B></font></center><BR><span class=\"paper_field\"></span><BR><BR><font size = \"1\">Я, (подпись свидетеля) <span class=\"paper_field\"></span>, подтверждаю, что приведенная выше информация является правдивой и точной, насколько мне известно, и передана в меру моих возможностей. Подписываясь ниже, я тем самым подтверждаю, что Верховный Суд может признать меня неуважительным или виновным в лжесвидетельстве согласно Закону SolGov 552 (a) (c) и Постановлению корпорации Nanotrasen 7716 (c).</font><BR><BR><HR><BR><center><font size=\"4\"><B>Подписи и штампы</B></font></center><BR><table></td><tr><td>Время:<td><span class=\"paper_field\"></span><BR></td><tr><td>Подпись сотрудника, получающего показания:<td><span class=\"paper_field\"></span><BR></td></tr></table></font>"
 	footer = footer_confidential
 
@@ -1161,7 +1161,7 @@
 	name = "Форма UT-SEC-11"
 	id = "UT-SEC-11"
 	altername = "Ордер на обыск"
-	category = "Служба безопасности"
+	category = "Миротворцы"
 	info = "<font face=\"Verdana\" color=black><center><font size=\"4\"><B>Информация о свидетеле</B></font></center><BR><table></td><tr><td>Имя свидетеля:<BR><font size = \"1\">Полностью и без ошибок</font><td><span class=\"paper_field\"></span><BR></td><tr><td>Номер аккаунта свидетеля:<BR><font size = \"1\">Эта информация есть у главы персонала</font><td><span class=\"paper_field\"></span><BR></td><tr><td>Должность свидетеля:<BR><font size = \"1\">Указано на ID карте</font><td><span class=\"paper_field\"></span><BR></td></tr></table><BR><HR><BR><center><font size=\"4\"><B>Ордер</B></font></center><BR><table></td><tr><td>В целях обыска:<BR><font size = \"1\">(помещения, имущества, лица)</font><td><span class=\"paper_field\"></span></td></tr></table><BR>Ознакомившись с письменными показаниями свидетеля(-ей), у меня появились основания полагать, что на лицах или помещениях, указанных выше, имеются соответствующие доказательства в этой связи или в пределах, в частности:<BR><BR><span class=\"paper_field\"></span><BR><BR>и другое имущество, являющееся доказательством уголовного преступления, контрабанды, плодов преступления или предметов, иным образом принадлежащих преступнику, или имущество, спроектированное или предназначенное для использования, или которое используется или использовалось в качестве средства совершения уголовного преступления, в частности заговор с целью совершения преступления, или совершения злонамеренного предъявления ложных и фиктивных претензий к или против корпорации Нанотрейзен или его дочерних компаний.<BR><BR>Я удовлетворен тем, что показания под присягой и любые записанные показания устанавливают вероятную причину полагать, что описанное имущество в данный момент скрыто в описанных выше помещениях, лицах или имуществе, и устанавливают законные основания для выдачи этого ордера.<BR><BR>ВЫ НАСТОЯЩИМ КОМАНДИРОВАНЫ для обыска вышеуказанного помещения, имущества или лица в течение <span class=\"paper_field\"></span> минут с даты выдачи настоящего ордера на указанное скрытое имущество, и если будет установлено, что имущество изъято, оставить копию этого ордера в качестве доказательства на реквизированную собственность, в соответствии с требованиями указа станции Утопия.<BR><BR>Слава Утопии!<BR><HR><BR><center><font size=\"4\"><B>Подписи и штампы</B></font></center><BR><table></td><tr><td>Время:<td><span class=\"paper_field\"></span><BR></td><tr><td>Подпись уполномоченного лица:<td><span class=\"paper_field\"></span><BR></td><tr><td>Должность уполномоченного лица:<td><span class=\"paper_field\"></span><BR></td></tr></table></font>"
 	footer = footer_confidential
 
@@ -1169,7 +1169,7 @@
 	name = "Форма UT-SEC-21"
 	id = "UT-SEC-21"
 	altername = "Ордер на арест"
-	category = "Служба безопасности"
+	category = "Миротворцы"
 	info = "<font face=\"Verdana\" color=black><center><font size=\"4\"><B>Ордер</B></font></center><BR><table></td><tr><td>В целях ареста:<BR><font size = \"1\">Имя полностью и без ошибок</font><td><span class=\"paper_field\"></span><BR></td><tr><td>Должность:<td><span class=\"paper_field\"></span><BR></td></tr></table><BR>Миротворцы настоящим уполномочены и направлены на задержание и арест указанного лица. Они будут игнорировать любые заявления о неприкосновенности или привилегии со стороны подозреваемого или агентов, действующих от его имени. Сотрудники немедленно доставят указанное лицо в Бриг для отбывать наказание за следующие преступления:<BR><BR><span class=\"paper_field\"></span><BR><BR>Предполагается, что подозреваемый будет отбывать наказание в <span class=\"paper_field\"></span> за вышеуказанные преступления.<BR><BR>Слава Утопии!<BR><HR><BR><center><font size=\"4\"><B>Подписи и штампы</B></font></center><BR><table></td><tr><td>Время:<td><span class=\"paper_field\"></span><BR></td><tr><td>Подпись уполномоченного лица:<td><span class=\"paper_field\"></span><BR></td><tr><td>Должность уполномоченного лица:<td><span class=\"paper_field\"></span><BR></td></tr></table></font>"
 	footer = footer_confidential
 
@@ -1177,7 +1177,7 @@
 	name = "Форма UT-SEC-02"
 	id = "UT-SEC-02"
 	altername = "Отчёт по результатам расследования"
-	category = "Служба безопасности"
+	category = "Миротворцы"
 	info = "<font face=\"Verdana\" color=black><center><font size=\"4\"><B>Дело <span class=\"paper_field\"></span></B></font></center><BR><table></td><tr><td>Тип проишествия/преступления:<td><span class=\"paper_field\"></span><BR></td><tr><td>Время проишествия/преступления:<td><span class=\"paper_field\"></span><BR></td><tr><td>Местоположение:<td><span class=\"paper_field\"></span><BR></td><tr><td>Краткое описание:<td><span class=\"paper_field\"></span><BR></td></tr></table><BR><HR><BR><center><font size=\"4\"><B>Участвующие лица</B></font></center><BR><table></td><tr><td>Арестованные:<td><span class=\"paper_field\"></span><BR></td><tr><td>Подозреваемые:<td><span class=\"paper_field\"></span><BR></td><tr><td>Свидетели:<td><span class=\"paper_field\"></span><BR></td><tr><td>Раненные:<td><span class=\"paper_field\"></span><BR></td><tr><td>Пропавшие:<td><span class=\"paper_field\"></span><BR></td><tr><td>Скончавшиеся:<td><span class=\"paper_field\"></span><BR></td></tr></table><BR><HR><BR><center><font size=\"4\"><B>Ход расследования</B></font></center><BR><span class=\"paper_field\"></span><BR><BR><table></td><tr><td>Прикреплённые доказательства:<td><span class=\"paper_field\"></span><BR></td><tr><td>Дополнительные замечания:<td><span class=\"paper_field\"></span><BR></td></tr></table><BR><HR><BR><center><font size=\"4\"><B>Подписи и штампы</B></font></center><BR><table></td><tr><td>Время:<td><span class=\"paper_field\"></span><BR></td><tr><td>Подпись уполномоченного лица:<td><span class=\"paper_field\"></span><BR></td><tr><td>Должность уполномоченного лица:<td><span class=\"paper_field\"></span><BR></td></tr></table></font>"
 	footer = footer_confidential
 
@@ -1185,7 +1185,7 @@
 	name = "Форма UT-SEC-03"
 	id = "UT-SEC-03"
 	altername = "Заявление о краже"
-	category = "Служба безопасности"
+	category = "Миротворцы"
 	info = "<font face=\"Verdana\" color=black>⠀⠀⠀Я, <span class=\"paper_field\"></span>, в должности <span class=\"paper_field\"></span>, заявляю:<span class=\"paper_field\"></span><BR><BR><HR><BR><center><font size=\"4\"><B>Подписи и штампы</B></font></center><BR>Подпись потерпевшего: <span class=\"paper_field\"></span><BR>Подпись принимавшего заявление: <span class=\"paper_field\"></span><BR>Время принятия заявления: <span class=\"paper_field\"></span><BR><HR><font size = \"1\">*Данный документ подлежит ксерокопированию, для сохранения в архиве уполномоченных лиц, и выдаче потерпевшему.<BR>*При обнаружении предмета кражи (предмет, жидкость или существо), данный предмет необходимо передать детективу, для дальнейшего осмотра и обследования.<BR>*После заключения детектива, предмет можно выдать владельцу. </font></font>"
 	footer = footer_confidential
 
@@ -1193,7 +1193,7 @@
 	name = "Форма UT-SEC-04"
 	id = "UT-SEC-04"
 	altername = "Заявление о причинении вреда здоровью или имуществу"
-	category = "Служба безопасности"
+	category = "Миротворцы"
 	info = "<font face=\"Verdana\" color=black>⠀⠀⠀Я, <span class=\"paper_field\"></span>, в должности <span class=\"paper_field\"></span>, заявляю:<span class=\"paper_field\"></span><BR><BR><HR><BR><center><font size=\"4\"><B>Подписи и штампы</B></font></center><BR>Подпись пострадавшего: <span class=\"paper_field\"></span><BR>Время происшествия: <span class=\"paper_field\"></span><BR>Подпись уполномоченного: <span class=\"paper_field\"></span><BR>Время принятия заявления: <span class=\"paper_field\"></span><BR><HR><font size = \"1\">*Данный документ подлежит ксерокопированию, для сохранения в архиве уполномоченных лиц, и выдаче пострадавшему.</font></font>"
 	footer = footer_confidential
 
@@ -1201,7 +1201,7 @@
 	name = "Форма UT-SEC-05"
 	id = "UT-SEC-05"
 	altername = "Разрешение на оружие"
-	category = "Служба безопасности"
+	category = "Миротворцы"
 	info = "<font face=\"Verdana\" color=black>⠀⠀⠀Члену экипажа, <span class=\"paper_field\"></span>, в должности <span class=\"paper_field\"></span>, было выдано разрешение на оружие. Я соглашаюсь с условиями его использования, хранения и применения. Данное оружие я обязуюсь применять только в целях самообороны, защиты своих личных вещей, и рабочего места, а так же для защиты своих коллег.<BR>⠀⠀⠀При попытке применения оружия, против остальных членов экипажа не предоставляющих угрозу, или при запугивании данным оружием, я лишаюсь лицензии на оружие, а так же понесу наказания, при нарушении закона.<BR><I><B><BR>Название и тип оружия: <span class=\"paper_field\"></span></B><BR><BR><HR><BR><center><font size=\"4\"><B>Подписи и штампы</B></font></center><BR>Подпись уполномоченного: <span class=\"paper_field\"></span><BR>Подпись получателя: <span class=\"paper_field\"></span><BR><HR><font size = \"1\">*Данный документ подлежит ксерокопированию, для сохранения в архиве уполномоченных лиц, и выдаче получателю.<BR>*Документ не является действительным без печати Вардена/ПисЛида и его подписи.</font></font>"
 	footer = footer_confidential
 
@@ -1209,7 +1209,7 @@
 	name = "Форма UT-SEC-06"
 	id = "UT-SEC-06"
 	altername = "Разрешение на присваивание канала связи"
-	category = "Служба безопасности"
+	category = "Миротворцы"
 	info = "<font face=\"Verdana\" color=black><center><I><font size=\"4\"><B>Разрешение</B></font></I></center><BR>Я <B><span class=\"paper_field\"></span></B>, прошу Вашего разрешения на присваивание канала связи <B><span class=\"paper_field\"></span></B>, для грамотной работы организации.<BR><BR>Должность заявителя: <span class=\"paper_field\"></span><BR><BR><HR><BR><center><I><font size=\"4\"><B>Подписи и штампы</B></font></I></center><BR><I><BR>Время: <span class=\"paper_field\"></span><BR><BR>Подпись заявителя: <span class=\"paper_field\"></span><BR><BR>Подпись главы персонала: <span class=\"paper_field\"></span><BR><BR>Подпись главы миротворцев: <span class=\"paper_field\"></span></I><BR><BR><HR><font size = \"1\">*Обязательно провести копирование документа для главы персонала, оригинал документа должен быть выдан заявителю.</font><BR><BR><font size = \"1\">*Обязательно провести копирование документа для миротворцев.</font></font>"
 	footer = footer_confidential
 
@@ -1217,7 +1217,7 @@
 	name = "Форма UT-SEC-07"
 	id = "UT-SEC-07"
 	altername = "Лицензия на использование канала связи и владение дополнительным оборудованием"
-	category = "Служба безопасности"
+	category = "Миротворцы"
 	info = "<font face=\"Verdana\" color=black><center><I><font size=\"4\"><B>Лицензия</B></font></I></center><BR>Имя обладателя лицензии: <span class=\"paper_field\"></span><BR><BR>Должность обладателя лицензии: <span class=\"paper_field\"></span><BR><BR>Зарегистрированный канал связи: <span class=\"paper_field\"></span><BR><BR>Перечень зарегистрированной экипировки: <span class=\"paper_field\"></span><BR><HR><BR><center><I><font size=\"4\"><B>Подписи и штампы</B></font></I></center><BR><I><BR>Время: <span class=\"paper_field\"></span><BR><BR>Подпись заявителя: <span class=\"paper_field\"></span><BR><BR>Подпись главы персонала: <span class=\"paper_field\"></span><BR><BR>Подпись главы миротворцев: <span class=\"paper_field\"></span></I><BR><HR><font size = \"1\">*Обязательно провести копирование документа для главы персонала, оригинал документа должен быть выдан обладателю лицензии.</font><BR><BR><font size = \"1\">*Обязательно провести копирование документа для миротворцев.</font><BR><BR><font size = \"1\">*Данная форма документа, обязательно должна подтверждаться печатью ответственного лица. В случае наличия опечаток и отсутствия подписей или печатей, лицензия будет являться недействительной.</font></font>"
 	footer = footer_confidential
 
@@ -1225,7 +1225,7 @@
 	name = "Форма UT-SEC-08"
 	id = "UT-SEC-08"
 	altername = "Лицензирование вооружения и экипировки для исполнения деятельности"
-	category = "Служба безопасности"
+	category = "Миротворцы"
 	info = "<font face=\"Verdana\" color=black><center><I><font size=\"4\"><B>Лицензия</B></font></I></center><BR><BR>Имя обладателя лицензии: <span class=\"paper_field\"></span><BR>Должность обладателя лицензии: <span class=\"paper_field\"></span><BR>Перечень зарегистрированного вооружения: <span class=\"paper_field\"></span><BR>Перечень зарегистрированной экипировки: <span class=\"paper_field\"></span><BR><BR><HR><BR><center><I><font size=\"4\"><B>Подписи и штампы</B></font></I></center><BR><BR>Время: <span class=\"paper_field\"></span><BR>Подпись обладателя  лицензии: <span class=\"paper_field\"></span><BR>Подпись главы миротворцев: <span class=\"paper_field\"></span><BR><BR><HR><font size = \"1\"><I> *Данная форма документа, обязательно должна подтверждаться печатью ответственного лица. В случае наличия опечаток и отсутствия подписей или печатей, лицензия будет является недействительной. Обязательно провести копирование документа для миротворцев, оригинал документа должен быть выдан обладателю лицензии. В случае несоответствия должности обладателя лицензии, можно приступить к процедуре аннулирования лицензии и изъятию вооружения, экипировки.<BR></font>"
 	footer = footer_confidential
 
