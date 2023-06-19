@@ -97,7 +97,7 @@
 		if("Warden")
 			O = new /datum/outfit/plasmaman/warden
 
-		if("Head of Security")
+		if("Peacemaker's Leader")
 			O = new /datum/outfit/plasmaman/hos
 
 		if("Cargo Technician", "Quartermaster")

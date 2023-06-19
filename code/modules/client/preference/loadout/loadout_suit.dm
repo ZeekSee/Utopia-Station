@@ -16,14 +16,14 @@
 	subtype_cost_overlap = FALSE
 
 /datum/gear/suit/coat/job/sec
-	display_name = "winter coat, security"
+	display_name = "winter coat, peacemakers"
 	path = /obj/item/clothing/suit/hooded/wintercoat/security
-	allowed_roles = list("Head of Security", "Warden", "Detective", "Security Officer", "Security Cadet", "Security Pod Pilot", "Brig Physician")
+	allowed_roles = list("Peacemaker's Leader", "Warden", "Detective", "Peacemaker", "Peacemaker Cadet", "Peacemaker Pod Pilot", "Brig Physician")
 
 /datum/gear/suit/coat/job/hos
-	display_name = "winter coat, head of security"
+	display_name = "winter coat, Peacemaker's Leader"
 	path = /obj/item/clothing/suit/hooded/wintercoat/security/hos
-	allowed_roles = list("Head of Security")
+	allowed_roles = list("Peacemaker's Leader")
 
 /datum/gear/suit/coat/job/captain
 	display_name = "winter coat, captain"
@@ -136,7 +136,7 @@
 /datum/gear/suit/secjacket
 	display_name = "security jacket"
 	path = /obj/item/clothing/suit/armor/secjacket
-	allowed_roles = list("Head of Security", "Warden", "Detective", "Security Officer", "Security Cadet", "Security Pod Pilot")
+	allowed_roles = list("Peacemaker's Leader", "Warden", "Detective", "Security Officer", "Security Cadet", "Security Pod Pilot")
 
 /datum/gear/suit/coat/russian
 	display_name = "russian coat"

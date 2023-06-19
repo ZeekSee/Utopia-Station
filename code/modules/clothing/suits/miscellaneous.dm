@@ -449,7 +449,7 @@
 	icon_state = "winterhood_sec"
 
 /obj/item/clothing/suit/hooded/wintercoat/security/hos
-	name = "head of securiry winter coat"
+	name = "Peacemaker's Leader winter coat"
 	icon_state = "wintercoat_hos"
 	item_state = "coathos"
 	hoodtype = /obj/item/clothing/head/hooded/winterhood/security/hos

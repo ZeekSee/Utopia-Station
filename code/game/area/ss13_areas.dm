@@ -1142,7 +1142,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "head_quarters"
 
 /area/crew_quarters/heads/hos
-	name = "\improper Head of Security's Quarters"
+	name = "\improper Peacemaker's Leader Quarters"
 	icon_state = "head_quarters"
 
 /area/crew_quarters/heads/cmo
@@ -1162,7 +1162,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "head_quarters"
 
 /area/crew_quarters/hos
-	name = "\improper Head of Security's Office"
+	name = "\improper Peacemaker's Leader Office"
 	icon_state = "head_quarters"
 
 /area/crew_quarters/chief
@@ -1954,7 +1954,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "securehall"
 
 /area/security/hos
-	name = "\improper Head of Security's Office"
+	name = "\improper Peacemaker's Leader Office"
 	icon_state = "sec_hos"
 
 /area/security/podbay

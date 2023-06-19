@@ -866,15 +866,15 @@
 	item_state = "intern-id"
 
 /obj/item/card/id/security
-	name = "Security ID"
-	registered_name = "Officer"
+	name = "Peacemaker ID"
+	registered_name = "Peacemaker"
 	icon_state = "security"
 	item_state = "security-id"
 	access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_COURT, ACCESS_MAINT_TUNNELS, ACCESS_MORGUE, ACCESS_WEAPONS)
 
 /obj/item/card/id/security/cadet
-	name = "Cadet ID"
-	registered_name = "Cadet"
+	name = "Peacemaker Cadet ID"
+	registered_name = "Peacemaker Cadet"
 	icon_state = "cadet"
 	item_state = "cadet-id"
 
@@ -912,8 +912,8 @@
 	item_state = "trainee-id"
 
 /obj/item/card/id/hos
-	name = "Head of Security ID"
-	registered_name = "HoS"
+	name = "Peacemaker's Leader ID"
+	registered_name = "Peace'Leader"
 	icon_state = "HoS"
 	item_state = "hos-id"
 	access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_ARMORY, ACCESS_COURT,
@@ -1121,7 +1121,7 @@
 		if("cargo")
 			return "Supply"
 		if("HoS")
-			return "Head of Security"
+			return "Peacemaker's Leader"
 		if("CMO")
 			return "Chief Medical Officer"
 		if("RD")
