@@ -317,8 +317,8 @@
 	if(config.assistantlimit)
 		if(job.title == "Civilian")
 			var/count = 0
-			var/datum/job/cadet = SSjobs.GetJob("Security Cadet")
-			var/datum/job/officer = SSjobs.GetJob("Security Officer")
+			var/datum/job/cadet = SSjobs.GetJob("Peacemaker Cadet")
+			var/datum/job/officer = SSjobs.GetJob("Peacemaker")
 			var/datum/job/warden = SSjobs.GetJob("Warden")
 			var/datum/job/hos = SSjobs.GetJob("Peacemaker's Leader")
 			count += (officer.current_positions + warden.current_positions + hos.current_positions + cadet.current_positions)

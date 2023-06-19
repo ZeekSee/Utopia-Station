@@ -8,7 +8,7 @@ const deptCols = COLORS.department;
 
 const HeadRoles = [
   "Captain",
-  "Head of Security",
+  "Peacemaker's Leader",
   "Chief Engineer",
   "Chief Medical Officer",
   "Research Director",
