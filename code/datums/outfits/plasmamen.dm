@@ -75,7 +75,7 @@
 	uniform = /obj/item/clothing/under/plasmaman/security/warden
 
 /datum/outfit/plasmaman/hos
-	name = "Head of Security Plasmaman"
+	name = "Peacemaker's Leader Plasmaman"
 
 	head = /obj/item/clothing/head/helmet/space/plasmaman/security/hos
 	uniform = /obj/item/clothing/under/plasmaman/security/hos
