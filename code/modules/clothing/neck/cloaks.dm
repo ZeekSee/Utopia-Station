@@ -8,12 +8,12 @@
 	body_parts_covered = UPPER_TORSO | ARMS
 
 /obj/item/clothing/neck/cloak/head_of_security
-	name = "head of security's cloak"
+	name = "peacemaker's leader cloak"
 	desc = "Worn by the leader of Brigston, ruling the station with an iron fist."
 	icon_state = "hoscloak"
 
 /obj/item/clothing/neck/cloak/security
-	name = "security officer's cloak"
+	name = "peacemaker's cloak"
 	desc = "Worn by security officers."
 	icon_state = "seccloak"
 /obj/item/clothing/neck/cloak/quartermaster

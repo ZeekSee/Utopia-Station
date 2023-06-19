@@ -1,5 +1,5 @@
 /datum/job/hos
-	title = "Head of Security"
+	title = "Peacemaker's Leader"
 	flag = JOB_HOS
 	department_flag = JOBCAT_ENGSEC
 	total_positions = 1
@@ -25,7 +25,7 @@
 	outfit = /datum/outfit/job/hos
 
 /datum/outfit/job/hos
-	name = "Head of Security"
+	name = "Peacemaker's Leader"
 	jobtype = /datum/job/hos
 
 	uniform = /obj/item/clothing/under/rank/head_of_security
@@ -60,8 +60,8 @@
 	total_positions = 1
 	spawn_positions = 1
 	is_security = 1
-	supervisors = "the head of security"
-	department_head = list("Head of Security")
+	supervisors = "the Peacemaker's Leader"
+	department_head = list("Peacemaker's Leader")
 	selection_color = "#ffeeee"
 	access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_ARMORY, ACCESS_COURT, ACCESS_MAINT_TUNNELS, ACCESS_MORGUE, ACCESS_WEAPONS)
 	minimal_access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_ARMORY, ACCESS_COURT, ACCESS_MAINT_TUNNELS, ACCESS_WEAPONS)
@@ -106,8 +106,8 @@
 	total_positions = 1
 	spawn_positions = 1
 	is_security = 1
-	supervisors = "the head of security"
-	department_head = list("Head of Security")
+	supervisors = "the Peacemaker's Leader"
+	department_head = list("Peacemaker's Leader")
 	selection_color = "#ffeeee"
 	access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_FORENSICS_LOCKERS, ACCESS_MORGUE, ACCESS_MAINT_TUNNELS, ACCESS_COURT, ACCESS_WEAPONS)
 	minimal_access = list(ACCESS_SEC_DOORS, ACCESS_FORENSICS_LOCKERS, ACCESS_MORGUE, ACCESS_MAINT_TUNNELS, ACCESS_COURT, ACCESS_WEAPONS)
@@ -160,25 +160,25 @@
 	H.check_mutations = 1
 
 /datum/job/officer
-	title = "Security Officer"
+	title = "Peacemaker"
 	flag = JOB_OFFICER
 	department_flag = JOBCAT_ENGSEC
 	total_positions = 7
 	spawn_positions = 7
 	is_security = 1
-	supervisors = "the head of security"
-	department_head = list("Head of Security")
+	supervisors = "Peacemaker's Leader"
+	department_head = list("Peacemaker's Leader")
 	selection_color = "#ffeeee"
 	access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_COURT, ACCESS_MAINT_TUNNELS, ACCESS_MORGUE, ACCESS_WEAPONS)
 	minimal_access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_COURT, ACCESS_MAINT_TUNNELS, ACCESS_WEAPONS)
-	alt_titles = list("Security Trainer")
+	alt_titles = list("Peacemaker Trainer")
 	minimal_player_age = 14
 	exp_requirements = 600
 	exp_type = EXP_TYPE_SECURITY
 	outfit = /datum/outfit/job/officer
 
 /datum/outfit/job/officer
-	name = "Security Officer"
+	name = "Peacemaker"
 	jobtype = /datum/job/officer
 	uniform = /obj/item/clothing/under/rank/security
 	suit = /obj/item/clothing/suit/armor/vest/security
@@ -201,13 +201,13 @@
 
 
 /datum/job/officer/cadet
-	title = "Security Cadet"
+	title = "Peacemaker Cadet"
 	flag = JOB_CADET
 	total_positions = 3
 	spawn_positions = 3
-	department_head = list("Head of Security", "Security Officer")
+	department_head = list("Peacemaker's Leader", "Peacemaker")
 	selection_color = "#ffeeee"
-	alt_titles = list("Security Assistant", "Security Graduate")
+	alt_titles = list("Peacemaker Assistant", "Peacemaker Graduate")
 	exp_requirements = 180
 	exp_type = EXP_TYPE_CREW
 	exp_max	= 600
@@ -216,7 +216,7 @@
 	outfit = /datum/outfit/job/officer/cadet
 
 /datum/outfit/job/officer/cadet
-	name = "Security Cadet"
+	name = "Peacemaker Cadet"
 	jobtype = /datum/job/officer/cadet
 	uniform = /obj/item/clothing/under/rank/security/cadet
 	head = /obj/item/clothing/head/soft/sec
@@ -232,11 +232,11 @@
 		uniform = /obj/item/clothing/under/rank/security/cadet/skirt
 	if(H.mind && H.mind.role_alt_title)
 		switch(H.mind.role_alt_title)
-			if("Security Assistant")
+			if("Peacemaker Assistant")
 				uniform = /obj/item/clothing/under/rank/security/cadet/assistant
 				if(H.gender == FEMALE)
 					uniform = /obj/item/clothing/under/rank/security/cadet/assistant/skirt
-			if("Security Graduate")
+			if("Peacemaker Graduate")
 				head = /obj/item/clothing/head/beret/sec
 
 /datum/job/brigdoc
@@ -246,8 +246,8 @@
 	total_positions = 1
 	spawn_positions = 1
 	is_security = 1
-	supervisors = "the head of security"
-	department_head = list("Head of Security")
+	supervisors = "the Peacemaker's Leader"
+	department_head = list("Peacemaker's Leader")
 	selection_color = "#ffeeee"
 	access = list(ACCESS_MEDICAL, ACCESS_MORGUE, ACCESS_SURGERY, ACCESS_CHEMISTRY, ACCESS_VIROLOGY, ACCESS_GENETICS, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_COURT, ACCESS_MAINT_TUNNELS)
 	minimal_access = list(ACCESS_MEDICAL, ACCESS_MORGUE, ACCESS_SURGERY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_COURT, ACCESS_MAINT_TUNNELS)
@@ -275,14 +275,14 @@
 
 
 /datum/job/pilot
-	title = "Security Pod Pilot"
+	title = "Peacemaker Pod Pilot"
 	flag = JOB_PILOT
 	department_flag = JOBCAT_KARMA
 	total_positions = 1
 	spawn_positions = 1
 	is_security = 1
-	supervisors = "the head of security"
-	department_head = list("Head of Security")
+	supervisors = "the Peacemaker's Leader"
+	department_head = list("Peacemaker's Leader")
 	selection_color = "#ffeeee"
 	access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_COURT, ACCESS_MAINT_TUNNELS, ACCESS_MORGUE, ACCESS_WEAPONS, ACCESS_PILOT, ACCESS_EXTERNAL_AIRLOCKS)
 	minimal_access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_COURT, ACCESS_MAINT_TUNNELS, ACCESS_WEAPONS, ACCESS_PILOT, ACCESS_EXTERNAL_AIRLOCKS)
@@ -292,7 +292,7 @@
 	outfit = /datum/outfit/job/pilot
 
 /datum/outfit/job/pilot
-	name = "Security Pod Pilot"
+	name = "Peacemaker Pod Pilot"
 	jobtype = /datum/job/pilot
 	uniform = /obj/item/clothing/under/rank/security/pod_pilot
 	suit = /obj/item/clothing/suit/jacket/pilot
