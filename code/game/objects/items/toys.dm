@@ -2073,8 +2073,8 @@
 	toysay = "Get that fucking disk!"
 
 /obj/item/toy/figure/secofficer
-	name = "Security Officer action figure"
-	desc = "The power-tripping Security Officer, from Space Life's SS12 figurine collection."
+	name = "Peacemaker action figure"
+	desc = "The power-tripping Peacemaker, from Space Life's SS12 figurine collection."
 	icon_state = "secofficer"
 	toysay = "I am the law!"
 

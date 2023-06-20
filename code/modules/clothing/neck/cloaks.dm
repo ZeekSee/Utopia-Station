@@ -14,7 +14,7 @@
 
 /obj/item/clothing/neck/cloak/security
 	name = "peacemakers cloak"
-	desc = "Worn by security officers."
+	desc = "Worn by peacemakers."
 	icon_state = "seccloak"
 /obj/item/clothing/neck/cloak/quartermaster
 	name = "quartermaster's cloak"

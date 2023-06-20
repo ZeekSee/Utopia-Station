@@ -99,7 +99,7 @@ GLOBAL_LIST_INIT(whitelisted_positions, list(
 	"Mechanic",
 	"Brig Physician",
 	"Magistrate",
-	"Security Pod Pilot"
+	"Peacemaker Pod Pilot"
 ))
 
 

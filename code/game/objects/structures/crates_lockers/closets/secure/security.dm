@@ -150,7 +150,7 @@
 	new /obj/item/storage/lockbox/sibyl_system_mod(src) //added here deleted from roundstart hand
 
 /obj/structure/closet/secure_closet/security
-	name = "security officer's locker"
+	name = "peacemakers officer's locker"
 	req_access = list(ACCESS_SECURITY)
 	icon_state = "sec1"
 	icon_closed = "sec"

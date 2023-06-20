@@ -177,21 +177,21 @@
 
 /obj/item/clothing/under/rank/security/formal
 	name = "peacemakers suit"
-	desc = "A formal security suit for officers complete with nanotrasen belt buckle."
+	desc = "A formal peacemaker suit for officers complete with nanotrasen belt buckle."
 	icon_state = "security_formal"
 	item_state = "gy_suit"
 	item_color = "security_formal"
 
 /obj/item/clothing/under/rank/warden/formal
 	name = "warden's suit"
-	desc = "A formal security suit for the warden with blue desginations and '/Warden/' stiched into the shoulders."
+	desc = "A formal peacemaker suit for the warden with blue desginations and '/Warden/' stiched into the shoulders."
 	icon_state = "warden_formal"
 	item_state = "gy_suit"
 	item_color = "warden_formal"
 
 /obj/item/clothing/under/rank/head_of_security/formal
 	name = "Peacemakers Leader suit"
-	desc = "A security suit decorated for those few with the dedication to achieve the position of Peacemakers Leader."
+	desc = "A peacemakers suit decorated for those few with the dedication to achieve the position of Peacemakers Leader."
 	icon_state = "hos_formal"
 	item_state = "gy_suit"
 	item_color = "hos_formal"

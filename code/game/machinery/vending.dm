@@ -1173,8 +1173,8 @@
 	contraband = list(/obj/item/reagent_containers/syringe/charcoal = 4,/obj/item/reagent_containers/syringe/antiviral = 4,/obj/item/reagent_containers/food/pill/tox = 1)
 
 /obj/machinery/vending/security
-	name = "\improper SecTech"
-	desc = "A security equipment vendor."
+	name = "\improper PeaceTech"
+	desc = "A peacemakers equipment vendor."
 	ads_list = list("Круши черепа капиталистов!","Отбей несколько голов!","Не забывай, вредительство - полезно!","Твое оружие здесь.","Наручники!","Стоять, подонок!","Не бей меня, брат!","Убей их, брат.","Почему бы не съесть пончик?")
 	icon_state = "sec"
 	icon_deny = "sec-deny"
@@ -1188,8 +1188,8 @@
 	refill_canister = /obj/item/vending_refill/security
 
 /obj/machinery/vending/security/training
-	name = "\improper SecTech Training"
-	desc = "A security training equipment vendor."
+	name = "\improper PeaceTech Training"
+	desc = "A peacemakers training equipment vendor."
 	ads_list = list("Соблюдай чистоту на стрельбище!","Даже я стреляю лучше тебя!","Почему так косо, бухой что ли?!","Техника безопасности нам не писана, да?","1 из 10 попаданий... А ты хорош!","Инструктор это твой папочка!","Эй, ты куда целишься?!")
 	icon_state = "sectraining"
 	icon_deny = "sectraining-deny"
@@ -1792,8 +1792,8 @@
 	refill_canister = null
 
 /obj/machinery/vending/clothing/departament/security
-	name = "\improper Departament Security ClothesMate"
-	desc = "Автомат-помощник по выдаче одежды Отдела Службы Безопасности."
+	name = "\improper Departament Peacemakers ClothesMate"
+	desc = "Автомат-помощник по выдаче одежды миротворцам."
 	icon_state = "clothes-dep-sec"
 	//slogan_list += list()
 	req_access = list(ACCESS_SEC_DOORS)

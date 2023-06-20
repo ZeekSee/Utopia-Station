@@ -154,15 +154,15 @@
 	ks1type = /obj/item/encryptionkey/binary
 
 /obj/item/radio/headset/headset_sec
-	name = "security radio headset"
-	desc = "This is used by your elite security force."
+	name = "peacemakers radio headset"
+	desc = "This is used by your peacemakers."
 	icon_state = "sec_headset"
 	item_state = "headset"
 	ks2type = /obj/item/encryptionkey/headset_sec
 
 /obj/item/radio/headset/headset_sec/alt
-	name = "security bowman headset"
-	desc = "This is used by your elite security force. Protects ears from flashbangs."
+	name = "peacemakers bowman headset"
+	desc = "This is used by your peacemakers. Protects ears from flashbangs."
 	flags = EARBANGPROTECT
 	icon_state = "sec_headset_alt"
 	item_state = "sec_headset_alt"

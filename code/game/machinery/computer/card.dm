@@ -764,7 +764,7 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 	circuit = /obj/item/circuitboard/card/minor
 
 /obj/machinery/computer/card/minor/hos
-	name = "security management console"
+	name = "peacemakers management console"
 	target_dept = TARGET_DEPT_SEC
 	icon_screen = "idhos"
 	light_color = LIGHT_COLOR_RED

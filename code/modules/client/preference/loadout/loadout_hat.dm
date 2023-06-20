@@ -141,14 +141,14 @@
 	subtype_cost_overlap = FALSE
 
 /datum/gear/hat/beret_job/sec
-	display_name = "security beret"
+	display_name = "peacemakers beret"
 	path = /obj/item/clothing/head/beret/sec
-	allowed_roles = list("Peacemakers Leader", "Warden", "Peacemaker", "Security Cadet", "Security Pod Pilot")
+	allowed_roles = list("Peacemakers Leader", "Warden", "Peacemaker", "Peacemaker Cadet", "Peacemaker Pod Pilot")
 
 /datum/gear/hat/beret_job/sec_black
-	display_name = "black security beret"
+	display_name = "black peacemakers beret"
 	path = /obj/item/clothing/head/beret/sec/black
-	allowed_roles = list("Peacemakers Leader", "Warden", "Peacemaker", "Security Cadet", "Security Pod Pilot")
+	allowed_roles = list("Peacemakers Leader", "Warden", "Peacemaker", "Peacemaker Cadet", "Peacemaker Pod Pilot")
 
 /datum/gear/hat/beret_job/marine
 	display_name = "royal marines commando beret"

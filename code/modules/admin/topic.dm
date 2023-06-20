@@ -3322,15 +3322,15 @@
 						M.req_access = list(ACCESS_BRIG,ACCESS_ENGINE)
 				message_admins("[key_name_admin(usr)] made all maint doors engineering and brig access-only.")
 			if("infinite_sec")
-				var/datum/job/J = SSjobs.GetJob("Security Officer")
+				var/datum/job/J = SSjobs.GetJob("Peacemaker")
 				if(!J) return
 				J.total_positions = -1
 				J.spawn_positions = -1
-				J = SSjobs.GetJob("Security Cadet")
+				J = SSjobs.GetJob("Peacemaker Cadet")
 				if(!J) return
 				J.total_positions = -1
 				J.spawn_positions = -1
-				message_admins("[key_name_admin(usr)] has removed the cap on security officers and cadets.")
+				message_admins("[key_name_admin(usr)] has removed the cap on peacemakers and peacemakers cadets.")
 
 	if(href_list["secretsmenu"])
 		switch(href_list["secretsmenu"])

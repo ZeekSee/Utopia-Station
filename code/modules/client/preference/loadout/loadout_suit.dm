@@ -134,9 +134,9 @@
 	path = /obj/item/clothing/suit/jacket/miljacket/white
 
 /datum/gear/suit/secjacket
-	display_name = "security jacket"
+	display_name = "peacemaker jacket"
 	path = /obj/item/clothing/suit/armor/secjacket
-	allowed_roles = list("Peacemakers Leader", "Warden", "Detective", "Security Officer", "Security Cadet", "Security Pod Pilot")
+	allowed_roles = list("Peacemakers Leader", "Warden", "Detective", "Peacemaker Officer", "Peacemaker Cadet", "Peacemaker Pod Pilot")
 
 /datum/gear/suit/coat/russian
 	display_name = "russian coat"
@@ -152,9 +152,9 @@
 
 
 /datum/gear/suit/suragi_jacket/sec
-	display_name = "Suragi Jacket - Security"
+	display_name = "Suragi Jacket - Peacemakers"
 	path = /obj/item/clothing/suit/storage/suragi_jacket/sec
-	allowed_roles = list("Warden", "Detective", "Security Officer", "Security Cadet", "Security Pod Pilot")
+	allowed_roles = list("Warden", "Detective", "Peacemaker Officer", "Peacemaker Cadet", "Peacemaker Pod Pilot")
 
 
 /datum/gear/suit/suragi_jacket/cargo
@@ -188,7 +188,7 @@
 
 
 /datum/gear/suit/suragi_jacket/medsec
-	display_name = "Suragi Jacket - Medical Security"
+	display_name = "Suragi Jacket - Medical Peacemakers"
 	path = /obj/item/clothing/suit/storage/suragi_jacket/medsec
 	allowed_roles = list("Brig Physician")
 

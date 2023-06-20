@@ -104,9 +104,9 @@
 	allowed_roles = list("Peacemakers Leader")
 
 /datum/gear/neck/cloak/security
-	display_name = "cloak, security officer"
+	display_name = "cloak, peacemaker"
 	path = /obj/item/clothing/neck/cloak/security
-	allowed_roles = list("Peacemakers Leader", "Security Officer", "Warden", "Security Cadet", "Security Pod Pilot")
+	allowed_roles = list("Peacemakers Leader", "Peacemaker", "Warden", "Peacemaker Cadet", "Peacemaker Pod Pilot")
 
 /datum/gear/neck/cloak/job/head_of_personnel
 	display_name = "cloak, head of personnel"
@@ -139,5 +139,5 @@
 /datum/gear/neck/poncho/security
 	display_name = "poncho, corporate"
 	path = /obj/item/clothing/neck/poncho/security
-	allowed_roles = list("Peacemakers Leader", "Security Officer", "Warden", "Security Cadet", "Security Pod Pilot")
+	allowed_roles = list("Peacemakers Leader", "Peacemaker Officer", "Warden", "Peacemaker Cadet", "Peacemaker Pod Pilot")
 

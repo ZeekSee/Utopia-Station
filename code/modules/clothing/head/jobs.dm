@@ -172,7 +172,7 @@
 	dog_fashion = /datum/dog_fashion/head/warden
 
 /obj/item/clothing/head/officer
-	name = "officer's cap"
+	name = "peacemakers cap"
 	desc = "A red cap with an old-fashioned badge on the front for establishing that you are, in fact, the law."
 	icon_state = "customshelm"
 	item_state = "customshelm"
@@ -180,8 +180,8 @@
 	strip_delay = 60
 
 /obj/item/clothing/head/beret/sec
-	name = "security beret"
-	desc = "A beret with the security insignia emblazoned on it. For officers that are more inclined towards style than safety."
+	name = "peacemaker beret"
+	desc = "A beret with the peacemaker insignia emblazoned on it. For officers that are more inclined towards style than safety."
 	icon_state = "beret_officer"
 	armor = list("melee" = 35, "bullet" = 30, "laser" = 30,"energy" = 10, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 50)
 	strip_delay = 60
@@ -189,8 +189,8 @@
 	muhtar_fashion = /datum/muhtar_fashion/head/beret
 
 /obj/item/clothing/head/beret/sec/black
-	name = "black security beret"
-	desc = "A beret with the security insignia emblazoned on it. For officers that are more inclined towards style than safety."
+	name = "black peacemaker beret"
+	desc = "A beret with the peacemakers insignia emblazoned on it. For officers that are more inclined towards style than safety."
 	icon_state = "beret_officer_black"
 
 /obj/item/clothing/head/beret/sec/warden

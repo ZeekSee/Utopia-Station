@@ -70,7 +70,7 @@
 	origin_tech = "syndicate=1;engineering=4;bluespace=3"
 
 /obj/item/encryptionkey/headset_sec
-	name = "Security Radio Encryption Key"
+	name = "Peacemakers Radio Encryption Key"
 	icon_state = "sec_cypherkey"
 	channels = list("Security" = 1)
 
@@ -105,7 +105,7 @@
 	channels = list("Medical" = 1, "Science" = 1)
 
 /obj/item/encryptionkey/headset_medsec
-	name = "Medical Security Radio Encryption Key"
+	name = "Medical Peacemakers Radio Encryption Key"
 	icon_state = "sec_cypherkey"
 	channels = list("Security" = 1, "Medical" = 1)
 

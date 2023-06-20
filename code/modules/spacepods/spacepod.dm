@@ -588,8 +588,8 @@
 // placeholder
 
 /obj/spacepod/sec
-	name = "\improper security spacepod"
-	desc = "An armed security spacepod with reinforced armor plating."
+	name = "\improper peacemaker spacepod"
+	desc = "An armed peacemaker spacepod with reinforced armor plating."
 	icon_state = "pod_dece"
 	health = 600
 

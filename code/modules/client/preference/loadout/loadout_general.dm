@@ -73,7 +73,7 @@
 	path = /obj/item/toy/plushie/nianplushie
 
 /datum/gear/sechud
-	display_name = "a classic security HUD"
+	display_name = "a classic peacemakers HUD"
 	path = /obj/item/clothing/glasses/hud/security
 	allowed_roles = list("Peacemakers Leader", "Warden", "Peacemaker", "Peacemaker Cadet", "Peacemaker Pod Pilot", "Internal Affairs Agent","Magistrate")
 
@@ -229,8 +229,8 @@
 	path = /obj/item/reagent_containers/food/drinks/mug/sci
 
 /datum/gear/mug/department/sec
-	display_name = "officer coffee mug"
-	description = "An officer's coffee mug, emblazoned in the colors of the Security department."
+	display_name = "peacemakers coffee mug"
+	description = "An peacemakers coffee mug, emblazoned in the colors of the Peacemakers."
 	allowed_roles = list("Peacemakers Leader", "Warden", "Detective", "Peacemaker", "Peacemaker Cadet", "Peacemaker Pod Pilot", "Brig Physician", "Internal Affairs Agent")
 	path = /obj/item/reagent_containers/food/drinks/mug/sec
 

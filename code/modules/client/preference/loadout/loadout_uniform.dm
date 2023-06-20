@@ -194,7 +194,7 @@
 	allowed_roles = list("Peacemakers Leader", "Warden")
 
 /datum/gear/uniform/skirt/job/security
-	display_name = "skirt, security"
+	display_name = "skirt, peacemaker"
 	path = /obj/item/clothing/under/rank/security/skirt
 	allowed_roles = list("Peacemakers Leader", "Warden", "Detective", "Peacemaker", "Peacemaker Cadet", "Peacemaker Pod Pilot")
 
@@ -236,24 +236,24 @@
 	subtype_path = /datum/gear/uniform/sec
 
 /datum/gear/uniform/sec/formal
-	display_name = "security uniform, formal"
+	display_name = "peacemaker uniform, formal"
 	path = /obj/item/clothing/under/rank/security/formal
-	allowed_roles = list("Peacemakers Leader", "Warden", "Detective", "Security Officer", "Security Cadet", "Security Pod Pilot")
+	allowed_roles = list("Peacemakers Leader", "Warden", "Detective", "Peacemaker", "Peacemaker Cadet", "Peacemaker Pod Pilot")
 
 /datum/gear/uniform/sec/secorporate
-	display_name = "security uniform, corporate"
+	display_name = "peacemaker uniform, corporate"
 	path = /obj/item/clothing/under/rank/security/corp
-	allowed_roles = list("Peacemakers Leader", "Warden", "Security Officer", "Security Cadet", "Security Pod Pilot")
+	allowed_roles = list("Peacemakers Leader", "Warden", "Peacemaker", "Peacemaker Cadet", "Peacemaker Pod Pilot")
 
 /datum/gear/uniform/sec/dispatch
-	display_name = "security uniform, dispatch"
+	display_name = "peacemaker uniform, dispatch"
 	path = /obj/item/clothing/under/rank/dispatch
-	allowed_roles = list("Peacemakers Leader", "Warden", "Security Officer", "Security Cadet", "Security Pod Pilot")
+	allowed_roles = list("Peacemakers Leader", "Warden", "Peacemaker", "Peacemaker Cadet", "Peacemaker Pod Pilot")
 
 /datum/gear/uniform/sec/casual
-	display_name = "security uniform, casual"
+	display_name = "peacemaker uniform, casual"
 	path = /obj/item/clothing/under/rank/security2
-	allowed_roles = list("Peacemakers Leader", "Warden", "Security Officer", "Security Cadet", "Detective", "Security Pod Pilot")
+	allowed_roles = list("Peacemakers Leader", "Warden", "Peacemaker", "Peacemaker Cadet", "Detective", "Peacemaker Pod Pilot")
 
 /datum/gear/uniform/shorts
 	subtype_path = /datum/gear/uniform/shorts

@@ -13,9 +13,9 @@
 	airlock_type = /obj/machinery/door/airlock/command
 
 /obj/structure/door_assembly/door_assembly_sec
-	name = "security airlock assembly"
+	name = "peacemakers airlock assembly"
 	icon = 'icons/obj/doors/airlocks/station/security.dmi'
-	base_name = "security airlock"
+	base_name = "peacemakers airlock"
 	glass_type = /obj/machinery/door/airlock/security/glass
 	airlock_type = /obj/machinery/door/airlock/security
 
@@ -107,9 +107,9 @@
 	noglass = TRUE
 
 /obj/structure/door_assembly/door_assembly_highsecurity
-	name = "high security airlock assembly"
+	name = "high peacemakers airlock assembly"
 	icon = 'icons/obj/doors/airlocks/highsec/highsec.dmi'
-	base_name = "high security airlock"
+	base_name = "high peacemakers airlock"
 	overlays_file = 'icons/obj/doors/airlocks/highsec/overlays.dmi'
 	airlock_type = /obj/machinery/door/airlock/highsecurity
 	noglass = TRUE

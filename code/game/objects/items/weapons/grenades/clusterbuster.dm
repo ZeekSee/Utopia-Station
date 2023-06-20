@@ -181,7 +181,7 @@
 	payload = /obj/item/a_gift
 
 /obj/item/grenade/clusterbuster/dirt
-	name = "Megamaid's Job Security Grenade"
+	name = "Megamaid's Job Peacemakers Grenade"
 	payload = /obj/effect/decal/cleanable/random
 
 /obj/item/grenade/clusterbuster/apocalypsefake
