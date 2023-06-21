@@ -2,12 +2,12 @@ name: CI
 on:
   push:
     branches:
-    - master
-    - prime
+    - main
+    - sauce
   pull_request:
     branches:
-    - master
-    - prime
+    - main
+    - sauce
 
 jobs:
   run_linters:
