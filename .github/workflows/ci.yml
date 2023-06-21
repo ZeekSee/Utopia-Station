@@ -4,10 +4,11 @@ on:
     branches:
     - main
     - sauce
+    - south
   pull_request:
     branches:
     - main
-    - sauce
+    
 
 jobs:
   run_linters:
