@@ -593,14 +593,14 @@
 	outfit = /datum/outfit/job/scientist/student
 
 /obj/effect/mob_spawn/human/securty
-	name = "Security Officer"
-	mob_name = "Security Officer"
+	name = "Peacemaker"
+	mob_name = "Peacemaker"
 	id_job = "Security Officer"
 	outfit = /datum/outfit/job/officer
 
 /obj/effect/mob_spawn/human/cadet
-	name = "Security Cadet"
-	mob_name = "Security Cadet"
+	name = "Peacemaker Cadet"
+	mob_name = "Peacemaker Cadet"
 	id_job = "Security Cadet"
 	outfit = /datum/outfit/job/officer/cadet
 

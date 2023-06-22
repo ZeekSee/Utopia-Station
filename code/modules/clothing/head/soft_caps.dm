@@ -117,7 +117,7 @@
 	dog_fashion = null
 
 /obj/item/clothing/head/soft/sec
-	name = "security cap"
+	name = "peacemakers cap"
 	desc = "It's baseball hat in tasteful red colour."
 	icon_state = "secsoft"
 	item_color = "sec"
@@ -126,7 +126,7 @@
 	dog_fashion = null
 
 /obj/item/clothing/head/soft/sec/corp
-	name = "corporate security cap"
+	name = "corporate peacemakers cap"
 	desc = "It's a baseball hat in corporate colours."
 	icon_state = "corpsoft"
 	item_color = "corp"

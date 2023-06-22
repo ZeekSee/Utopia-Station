@@ -654,7 +654,7 @@ GLOBAL_LIST_EMPTY(all_objectives)
 
 /datum/objective/heist/kidnap
 /datum/objective/heist/kidnap/choose_target()
-	var/list/roles = list("Chief Engineer","Research Director","Chief Medical Officer","Head of Personal","Peacemaker's Leader","Nanotrasen Representative","Magistrate","Roboticist","Chemist")
+	var/list/roles = list("Chief Engineer","Research Director","Chief Medical Officer","Head of Personal","Peacemakers Leader","Nanotrasen Representative","Magistrate","Roboticist","Chemist")
 	var/list/possible_targets = list()
 	var/list/priority_targets = list()
 
@@ -1123,7 +1123,7 @@ GLOBAL_LIST_EMPTY(all_objectives)
 /datum/objective/find_and_scan/find_target()
 	var/list/roles = list("Clown", "Mime", "Cargo Technician",
 	"Shaft Miner", "Scientist", "Roboticist",
-	"Medical Doctor", "Geneticist", "Security Officer",
+	"Medical Doctor", "Geneticist", "Peacemaker",
 	"Chemist", "Station Engineer", "Civilian",
 	"Botanist", "Chemist", "Virologist",
 	"Life Support Specialist")

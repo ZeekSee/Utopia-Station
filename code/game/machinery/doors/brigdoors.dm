@@ -62,13 +62,13 @@
 		var/obj/item/paper/P = new /obj/item/paper(C.loc)
 		P.name = "[id] log - [occupant] [station_time_timestamp()]"
 		P.info =  "<center><b>[id] - Brig record</b></center><br><hr><br>"
-		P.info += {"<center>[station_name()] - Security Department</center><br>
+		P.info += {"<center>[station_name()] - Peacemakers</center><br>
 						<center><small><b>Admission data:</b></small></center><br>
 						<small><b>Log generated at:</b>		[station_time_timestamp()]<br>
 						<b>Detainee:</b>		[occupant]<br>
 						<b>Duration:</b>		[seconds_to_time(timetoset / 10)]<br>
 						<b>Charge(s):</b>	[crimes]<br>
-						<b>Arresting Officer:</b>		[usr.name]<br><hr><br>
+						<b>Arresting Peacemaker:</b>		[usr.name]<br><hr><br>
 						<small>This log file was generated automatically upon activation of a cell timer.</small>"}
 
 		playsound(C.loc, "sound/goonstation/machines/printer_dotmatrix.ogg", 50, 1)

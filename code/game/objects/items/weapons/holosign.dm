@@ -90,8 +90,8 @@
 	max_signs = 5
 
 /obj/item/holosign_creator/security
-	name = "security holobarrier projector"
-	desc = "A holographic projector that creates holographic security barriers."
+	name = "peacemakers holobarrier projector"
+	desc = "A holographic projector that creates holographic peacemakers barriers."
 	icon_state = "signmaker_sec"
 	holosign_type = /obj/structure/holosign/barrier
 	creation_time = 30

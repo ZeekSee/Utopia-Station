@@ -492,7 +492,7 @@
 		disabled = FALSE
 
 /obj/machinery/autolathe/security
-	name = "Security Autolathe"
+	name = "Peacemakers Autolathe"
 	desc = "Autolathe with preloaded open recipes"
 	icon = 'icons/obj/machines/sec_autolathe.dmi'
 

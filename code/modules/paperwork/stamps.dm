@@ -43,7 +43,7 @@
 	item_color = "hop"
 
 /obj/item/stamp/hos
-	name = "Peacemaker's Leader rubber stamp"
+	name = "Peacemakers Leader rubber stamp"
 	icon_state = "stamp-hos"
 	item_color = "hosred"
 

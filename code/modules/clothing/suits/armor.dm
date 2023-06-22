@@ -43,7 +43,7 @@
 	blood_overlay_type = "armor"
 
 /obj/item/clothing/suit/armor/vest/security
-	name = "security armor"
+	name = "peacemakers armor"
 	desc = "An armored vest that protects against some damage. This one has a clip for a holobadge."
 	sprite_sheets = list(
 		"Grey" = 'icons/mob/species/grey/suit.dmi',
@@ -91,21 +91,21 @@
 	..()
 
 /obj/item/clothing/suit/armor/vest/blueshield
-	name = "blueshield security armor"
+	name = "blueshield peacemakers armor"
 	desc = "An armored vest with the badge of a Blueshield Lieutenant."
 	icon_state = "blueshield"
 	item_state = "blueshield"
 
 /obj/item/clothing/suit/armor/vest/bloody
-	name = "bloodied security armor"
+	name = "bloodied peacemakers armor"
 	desc = "A vest drenched in the blood of Greytide. It has seen better days."
 	icon_state = "bloody_armor"
 	item_state = "bloody_armor"
 	sprite_sheets = null
 
 /obj/item/clothing/suit/armor/secjacket
-	name = "security jacket"
-	desc = "A sturdy black jacket with reinforced fabric. Bears insignia of NT corporate security."
+	name = "peacemaker jacket"
+	desc = "A sturdy black jacket with reinforced fabric. Bears insignia of Utopia peacemakers."
 	icon_state = "secjacket_open"
 	item_state = "hos"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS

@@ -12,7 +12,7 @@
 /datum/game_mode/revolution
 	name = "revolution"
 	config_tag = "revolution"
-	restricted_jobs = list("Peacemaker", "Peacemaker Cadet", "Warden", "Detective", "Internal Affairs Agent", "AI", "Cyborg","Captain", "Head of Personnel", "Peacemaker's Leader", "Chief Engineer", "Research Director", "Chief Medical Officer", "Blueshield", "Nanotrasen Representative", "Security Pod Pilot", "Magistrate", "Brig Physician")
+	restricted_jobs = list("Peacemaker", "Peacemaker Cadet", "Warden", "Detective", "Internal Affairs Agent", "AI", "Cyborg","Captain", "Head of Personnel", "Peacemakers Leader", "Chief Engineer", "Research Director", "Chief Medical Officer", "Blueshield", "Nanotrasen Representative", "Peacemaker Pod Pilot", "Magistrate", "Brig Physician")
 	required_players = 20
 	required_enemies = 1
 	recommended_enemies = 3
@@ -25,7 +25,7 @@
 ///////////////////////////
 /datum/game_mode/revolution/announce()
 	to_chat(world, "<B>The current game mode is - Revolution!</B>")
-	to_chat(world, "<B>Some crewmembers are attempting to start a revolution!<BR>\nRevolutionaries - Kill the Captain, HoP, HoS, CE, RD and CMO. Involve other employees (excluding the heads of staff, and security officers) in to the revolution.  Protect your leaders.<BR>\nPersonnel - Protect the heads of staff. Kill the leaders of the revolution, and brainwash the other revolutionaries (by implantiong them with mindshield implants).</B>")
+	to_chat(world, "<B>Some crewmembers are attempting to start a revolution!<BR>\nRevolutionaries - Kill the Captain, HoP, HoS, CE, RD and CMO. Involve other employees (excluding the heads of staff, and peacemakers) in to the revolution.  Protect your leaders.<BR>\nPersonnel - Protect the heads of staff. Kill the leaders of the revolution, and brainwash the other revolutionaries (by implantiong them with mindshield implants).</B>")
 
 ///////////////////////////////////////////
 //Магический спелл для приглашения в реву//
@@ -335,7 +335,7 @@
 		var/mob/living/carbon/human/player = thing
 		if(player.mind)
 			var/role = player.mind.assigned_role
-			if(role in list("Captain", "Peacemaker's Leader", "Head of Personnel", "Chief Engineer", "Research Director"))
+			if(role in list("Captain", "Peacemakers Leader", "Head of Personnel", "Chief Engineer", "Research Director"))
 				if(player.stat == DEAD)
 					GLOB.score_deadcommand++
 
@@ -366,7 +366,7 @@
 		var/mob/living/carbon/human/player = thing
 		if(player.mind)
 			var/role = player.mind.assigned_role
-			if(role in list("Captain", "Peacemaker's Leader", "Head of Personnel", "Chief Engineer", "Research Director"))
+			if(role in list("Captain", "Peacemakers Leader", "Head of Personnel", "Chief Engineer", "Research Director"))
 				if(player.stat != DEAD)
 					comcount++
 			else

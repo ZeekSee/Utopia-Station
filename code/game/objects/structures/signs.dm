@@ -296,8 +296,8 @@
 	icon_state = "direction_eng"
 
 /obj/structure/sign/directions/security
-	name = "\improper Security Department"
-	desc = "A direction sign, pointing out which way the Security Department is."
+	name = "\improper Peacemakers"
+	desc = "A direction sign, pointing out which way the Peacemakers is."
 	icon_state = "direction_sec"
 
 /obj/structure/sign/directions/medical

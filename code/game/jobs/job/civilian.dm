@@ -33,7 +33,7 @@
 	total_positions = 0
 	spawn_positions = 2
 	supervisors = "Warden"
-	department_head = list("Peacemaker's Leader", "Warden", "Peacemaker")
+	department_head = list("Peacemakers Leader", "Warden", "Peacemaker")
 	selection_color = "#dddddd"
 	access = list()
 	minimal_access = list()

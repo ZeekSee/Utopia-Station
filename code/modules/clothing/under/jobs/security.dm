@@ -26,7 +26,7 @@
 	item_color = "wardenf"
 
 /obj/item/clothing/under/rank/security
-	name = "peacemaker's jumpsuit"
+	name = "peacemakers jumpsuit"
 	desc = "It's made of a slightly sturdier material than standard jumpsuits, to allow for robust protection."
 	icon_state = "security"
 	item_state = "r_suit"
@@ -39,29 +39,29 @@
 	random_sensor = FALSE
 
 /obj/item/clothing/under/rank/security/cadet
-	name = "peacemaker's cadet jumpsuit"
+	name = "peacemakers cadet jumpsuit"
 	icon_state = "cadet_s"
 	item_color = "cadet"
 
 /obj/item/clothing/under/rank/security/cadet/skirt
-	name = "peacemaker's cadet jumpskirt"
+	name = "peacemakers cadet jumpskirt"
 	icon_state = "cadetf_s"
 	item_color = "cadetf"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
 
 /obj/item/clothing/under/rank/security/cadet/assistant
-	name = "peacemaker's assistant jumpsuit"
+	name = "peacemakers assistant jumpsuit"
 	icon_state = "sec_ass_s"
 	item_color = "sec_ass"
 
 /obj/item/clothing/under/rank/security/cadet/assistant/skirt
-	name = "peacemaker's assistant jumpskirt"
+	name = "peacemakers assistant jumpskirt"
 	icon_state = "sec_ass_f_s"
 	item_color = "sec_ass_f"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
 
 /obj/item/clothing/under/rank/security/skirt
-	name = "peacemaker's jumpskirt"
+	name = "peacemakers jumpskirt"
 	desc = "Standard feminine fashion for group of Peacemakers.  It's made of sturdier material than the standard jumpskirts."
 	icon_state = "secredf"
 	item_state = "r_suit"
@@ -69,14 +69,14 @@
 
 /obj/item/clothing/under/rank/dispatch
 	name = "dispatcher's uniform"
-	desc = "A dress shirt and khakis with a peacemaker's patch sewn on."
+	desc = "A dress shirt and khakis with a peacemakers patch sewn on."
 	icon_state = "dispatch"
 	item_state = "dispatch"
 	item_color = "dispatch"
 	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30)
 
 /obj/item/clothing/under/rank/security2
-	name = "peacemaker's uniform"
+	name = "peacemakers uniform"
 	desc = "It's made of a slightly sturdier material, to allow for robust protection."
 	icon_state = "redshirt2"
 	item_state = "r_suit"
@@ -118,8 +118,8 @@
  * Head of Security
  */
 /obj/item/clothing/under/rank/head_of_security
-	desc = "It's a jumpsuit worn by those few with the dedication to achieve the position of \"Peacemaker's Leader\". It has additional armor to protect the wearer."
-	name = "Peacemaker's Leader jumpsuit"
+	desc = "It's a jumpsuit worn by those few with the dedication to achieve the position of \"Peacemakers Leader\". It has additional armor to protect the wearer."
+	name = "Peacemakers Leader jumpsuit"
 	icon_state = "hos"
 	item_state = "r_suit"
 	item_color = "hosred"
@@ -127,8 +127,8 @@
 	strip_delay = 60
 
 /obj/item/clothing/under/rank/head_of_security/skirt
-	desc = "It's a fashionable jumpskirt worn by those few with the dedication to achieve the position of \"Peacemaker's Leader\". It has additional armor to protect the wearer."
-	name = "Peacemaker's Leader jumpskirt"
+	desc = "It's a fashionable jumpskirt worn by those few with the dedication to achieve the position of \"Peacemakers Leader\". It has additional armor to protect the wearer."
+	name = "Peacemakers Leader jumpskirt"
 	icon_state = "hosredf"
 	item_state = "r_suit"
 	item_color = "hosredf"
@@ -146,7 +146,7 @@
 //Jensen cosplay gear
 /obj/item/clothing/under/rank/head_of_security/jensen
 	desc = "You never asked for anything that stylish."
-	name = "Peacemaker's Leader jumpsuit"
+	name = "Peacemakers Leader jumpsuit"
 	icon_state = "jensen"
 	item_state = "jensen"
 	item_color = "jensen"
@@ -154,12 +154,12 @@
 //Paradise Station
 
 /obj/item/clothing/suit/armor/hos/hosnavyjacket
-	name = "Peacemaker's Leader navy jacket"
+	name = "Peacemakers Leader navy jacket"
 	icon_state = "hosdnavyjacket"
 	item_state = "hosdnavyjacket"
 
 /obj/item/clothing/suit/armor/hos/hosbluejacket
-	name = "Peacemaker's Leader blue jacket"
+	name = "Peacemakers Leader blue jacket"
 	icon_state = "hosbluejacket"
 	item_state = "hosbluejacket"
 
@@ -176,22 +176,22 @@
 //TG Station
 
 /obj/item/clothing/under/rank/security/formal
-	name = "peacemaker's suit"
-	desc = "A formal security suit for officers complete with nanotrasen belt buckle."
+	name = "peacemakers suit"
+	desc = "A formal peacemaker suit for officers complete with nanotrasen belt buckle."
 	icon_state = "security_formal"
 	item_state = "gy_suit"
 	item_color = "security_formal"
 
 /obj/item/clothing/under/rank/warden/formal
 	name = "warden's suit"
-	desc = "A formal security suit for the warden with blue desginations and '/Warden/' stiched into the shoulders."
+	desc = "A formal peacemaker suit for the warden with blue desginations and '/Warden/' stiched into the shoulders."
 	icon_state = "warden_formal"
 	item_state = "gy_suit"
 	item_color = "warden_formal"
 
 /obj/item/clothing/under/rank/head_of_security/formal
-	name = "Peacemaker's Leader suit"
-	desc = "A security suit decorated for those few with the dedication to achieve the position of Peacemaker's Leader."
+	name = "Peacemakers Leader suit"
+	desc = "A peacemakers suit decorated for those few with the dedication to achieve the position of Peacemakers Leader."
 	icon_state = "hos_formal"
 	item_state = "gy_suit"
 	item_color = "hos_formal"

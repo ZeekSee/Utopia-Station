@@ -153,7 +153,7 @@
 	item_state = "medicalpack"
 
 /obj/item/storage/backpack/security
-	name = "security backpack"
+	name = "peacemakers backpack"
 	desc = "It's a very robust backpack."
 	icon_state = "securitypack"
 	item_state = "securitypack"
@@ -333,8 +333,8 @@
 	resistance_flags = FIRE_PROOF
 
 /obj/item/storage/backpack/satchel_sec
-	name = "security satchel"
-	desc = "A robust satchel for security related needs."
+	name = "peacemakers satchel"
+	desc = "A robust satchel for peacemakers related needs."
 	icon_state = "satchel-sec"
 
 /obj/item/storage/backpack/satchel_detective
@@ -627,7 +627,7 @@
 	resistance_flags = FIRE_PROOF
 
 /obj/item/storage/backpack/duffel/security
-	name = "security duffelbag"
+	name = "peacemakers duffelbag"
 	desc = "A duffelbag built with robust fabric!"
 	icon_state = "duffel-security"
 	item_state = "duffel-security"

@@ -88,7 +88,7 @@
 	icon_state = "refill_clothes"
 
 /obj/item/vending_refill/clothing/security
-	machine_name = "Security Departament ClothesMate"
+	machine_name = "Peacemakers Departament ClothesMate"
 
 /obj/item/vending_refill/clothing/medical
 	machine_name = "Medical Departament ClothesMate"

@@ -237,8 +237,8 @@
 
 
 /obj/item/clothing/accessory/medal/security
-	name = "robust security medal"
-	desc = "An award issued by the HoS to security staff who excel at upholding the law."
+	name = "robust peacemaker medal"
+	desc = "An award issued by the Leader Peacemarkers to Utopia staff who excel at upholding the law."
 
 /obj/item/clothing/accessory/medal/science
 	name = "smart science medal"

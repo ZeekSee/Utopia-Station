@@ -222,23 +222,23 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 	containertype = /obj/structure/closet/crate/secure/gear
 	access = ACCESS_SECURITY
 	group = SUPPLY_SECURITY
-	announce_beacons = list("Security" = list("Peacemaker's Leader Desk", "Warden", "Peacemaker"))
+	announce_beacons = list("Security" = list("Peacemakers Leader Desk", "Warden", "Peacemaker"))
 
 
 /datum/supply_packs/security/supplies
-	name = "Security Supplies Crate"
+	name = "Peacemakers Supplies Crate"
 	contains = list(/obj/item/storage/box/flashbangs,
 					/obj/item/storage/box/teargas,
 					/obj/item/storage/box/flashes,
 					/obj/item/storage/box/handcuffs)
 	cost = 10
-	containername = "security supply crate"
+	containername = "peacemakers supply crate"
 
 /datum/supply_packs/security/vending/security
-	name = "SecTech Supply Crate"
+	name = "PeaceTech Supply Crate"
 	cost = 15
 	contains = list(/obj/item/vending_refill/security)
-	containername = "SecTech supply crate"
+	containername = "PeaceTech supply crate"
 
 ////// Armor: Basic
 
@@ -327,7 +327,7 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 	name = "HEADER"
 	containertype = /obj/structure/closet/crate/secure/weapon
 	access = ACCESS_ARMORY
-	announce_beacons = list("Security" = list("Warden", "Peacemaker's Leader Desk"))
+	announce_beacons = list("Security" = list("Warden", "Peacemakers Leader Desk"))
 
 ///// Armor: Specialist
 
@@ -572,16 +572,16 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 	containername = "exile implant crate"
 
 /datum/supply_packs/security/securitybarriers
-	name = "Security Barriers Crate"
+	name = "Peacemakers Barriers Crate"
 	contains = list(/obj/item/grenade/barrier,
 					/obj/item/grenade/barrier,
 					/obj/item/grenade/barrier,
 					/obj/item/grenade/barrier)
 	cost = 20
-	containername = "security barriers crate"
+	containername = "peacemakers barriers crate"
 
 /datum/supply_packs/security/securityclothes
-	name = "Security Clothing Crate"
+	name = "Peacemakers Clothing Crate"
 	contains = list(/obj/item/clothing/under/rank/security/corp,
 					/obj/item/clothing/under/rank/security/corp,
 					/obj/item/clothing/head/soft/sec/corp,
@@ -591,7 +591,7 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 					/obj/item/clothing/under/rank/head_of_security/corp,
 					/obj/item/clothing/head/HoS/beret)
 	cost = 30
-	containername = "security clothing crate"
+	containername = "peacemakers clothing crate"
 
 /datum/supply_packs/security/officerpack // Starter pack for an officer. Contains everything in a locker but backpack (officer already start with one). Convenient way to equip new officer on highpop.
 	name = "Officer Starter Pack"
@@ -2156,10 +2156,10 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 	containername = "clothesmate supply crate"
 
 /datum/supply_packs/vending/clothes/security
-	name = "Security Departament ClothesMate Supply Crate"
+	name = "Peacemakers Departament ClothesMate Supply Crate"
 	contains = list(/obj/item/vending_refill/clothing/security)
 	cost = 80
-	containername = "security departament clothesmate supply crate"
+	containername = "peacemakers departament clothesmate supply crate"
 
 /datum/supply_packs/vending/clothes/engineering
 	name = "Engineering Departament ClothesMate Supply Crate"

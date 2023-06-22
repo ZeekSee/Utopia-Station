@@ -41,8 +41,8 @@
 	icon_state = "cmomantle"
 
 /obj/item/clothing/neck/mantle/head_of_security
-	name = "peacemaker's leader mantle"
-	desc = "A cloak worn by the Peacemaker's Leader. Do you dare take up their mantle?"
+	name = "peacemakers leader mantle"
+	desc = "A cloak worn by the Peacemakers Leader. Do you dare take up their mantle?"
 	icon_state = "hosmantle"
 
 /obj/item/clothing/neck/mantle/head_of_personnel

@@ -94,9 +94,9 @@ GLOBAL_LIST_INIT(ungibbable_items_types, get_ungibbable_items_types())
 	protected_jobs = list("Captain")
 
 /datum/theft_objective/highrisk/hoslaser
-	name = "the peacemaker's leader's X-01 multiphase energy gun"
+	name = "the Peacemakers leader's X-01 multiphase energy gun"
 	typepath = /obj/item/gun/energy/gun/hos
-	protected_jobs = list("Peacemaker's Leader")
+	protected_jobs = list("Peacemakers Leader")
 
 /datum/theft_objective/highrisk/hand_tele
 	name = "a hand teleporter"
@@ -179,12 +179,12 @@ GLOBAL_LIST_INIT(ungibbable_items_types, get_ungibbable_items_types())
 /datum/theft_objective/highrisk/ablative
 	name = "an ablative armor vest"
 	typepath = /obj/item/clothing/suit/armor/laserproof
-	protected_jobs = list("Peacemaker's Leader", "Warden")
+	protected_jobs = list("Peacemakers Leader", "Warden")
 
 /datum/theft_objective/highrisk/krav
 	name = "the warden's krav maga martial arts gloves"
 	typepath = /obj/item/clothing/gloves/color/black/krav_maga/sec
-	protected_jobs = list("Peacemaker's Leader", "Warden")
+	protected_jobs = list("Peacemakers Leader", "Warden")
 
 
 
@@ -257,7 +257,7 @@ GLOBAL_LIST_INIT(ungibbable_items_types, get_ungibbable_items_types())
 /datum/theft_objective/medium/sec_aviators
 	typepath = /obj/item/clothing/glasses/hud/security/sunglasses/aviators
 	name = "очки-авиаторы службы безопасности"
-	protected_jobs = list("Peacemaker's Leader", "Detective")
+	protected_jobs = list("Peacemakers Leader", "Detective")
 
 /datum/theft_objective/medium/space_ce
 	typepath = /obj/item/clothing/suit/space/hardsuit/engine/elite
@@ -292,7 +292,7 @@ GLOBAL_LIST_INIT(ungibbable_items_types, get_ungibbable_items_types())
 /datum/theft_objective/medium/space_hos
 	typepath = /obj/item/clothing/suit/space/hardsuit/security/hos
 	name = "хардсьют главы службы безопасности"
-	protected_jobs = list("Peacemaker's Leader")
+	protected_jobs = list("Peacemakers Leader")
 
 /datum/theft_objective/medium/rnd_logs_key
 	typepath = /obj/item/paper/rnd_logs_key
@@ -302,7 +302,7 @@ GLOBAL_LIST_INIT(ungibbable_items_types, get_ungibbable_items_types())
 /datum/theft_objective/medium/monitorkey
 	typepath = /obj/item/paper/monitorkey
 	name = "подлинную бумагу Monitor Decryption Key"
-	protected_jobs = list("Research Director", "Captain", "Peacemaker's Leader", "Chief Engineer", "Head of Personal")
+	protected_jobs = list("Research Director", "Captain", "Peacemakers Leader", "Chief Engineer", "Head of Personal")
 
 /datum/theft_objective/medium/paper_rnd
 	typepath = /obj/item/paper/safe_code

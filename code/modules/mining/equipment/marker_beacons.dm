@@ -13,7 +13,7 @@ GLOBAL_LIST_INIT(marker_beacon_colors, list(
 "Purple" = LIGHT_COLOR_PURPLE,
 "Violet" = LIGHT_COLOR_LAVENDER,
 "Fuchsia" = LIGHT_COLOR_PINK,
-"Peacemaker's red" = LIGHT_COLOR_PEACERED))
+"Peacemakers red" = LIGHT_COLOR_PEACERED))
 
 /obj/item/stack/marker_beacon
 	name = "marker beacon"

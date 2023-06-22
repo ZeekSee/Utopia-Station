@@ -423,7 +423,7 @@
 */
 
 /obj/machinery/door/airlock/highsecurity
-	name = "high tech security airlock"
+	name = "high tech peacemakers airlock"
 	icon = 'icons/obj/doors/airlocks/highsec/highsec.dmi'
 	overlays_file = 'icons/obj/doors/airlocks/highsec/overlays.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_highsecurity
@@ -703,7 +703,7 @@
 	paintable = FALSE
 
 /obj/machinery/door/airlock/syndicate/security
-	name = "evil looking security airlock"
+	name = "evil looking peacemakers airlock"
 	icon = 'icons/obj/doors/airlocks/syndicate/security.dmi'
 	assemblytype = /obj/structure/door_assembly/syndicate/door_assembly_syndie_sec
 	normal_integrity = 500
