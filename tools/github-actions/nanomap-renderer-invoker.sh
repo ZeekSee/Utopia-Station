@@ -1,4 +1,6 @@
 #!/bin/bash
+chmod +x ./tools/github-actions/nanomap-renderer-invoker.sh
+chmod +rw ./data/nanomaps
 # Generate maps
 tools/github-actions/nanomap-renderer minimap -w 2040 -h 2040 "./_maps/map_files/cyberiad/cyberiad.dmm"
 tools/github-actions/nanomap-renderer minimap -w 2040 -h 2040 "./_maps/map_files/Delta/delta.dmm"
