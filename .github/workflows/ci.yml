@@ -11,10 +11,8 @@ on:
     
 
 jobs:
-run_linters:
-  - name: Change wrapper permissions
-    run: chmod +x ./tools/ci/build_tgui.sh
-  - name: Run Linters
+  run_linters:
+    name: Run Linters
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
@@ -30,7 +28,6 @@ run_linters:
       - name: Run Linters
         run: |
           find . -name "*.json" -not -path "*/node_modules/*" -print0 | xargs -0 python3 ./tools/ci/json_verifier.py
-          git update-index --chmod=+x ./.github/tools/ci/build_tgui.sh
           tools/ci/build_tgui.sh
           tools/ci/check_grep.sh
           python3 tools/ci/check_line_endings.py
@@ -97,4 +94,3 @@ run_linters:
           source $HOME/BYOND/byond/bin/byondsetup
           tools/ci/dm.sh -DCIBUILDING paradise.dme
           tools/ci/run_server.sh
-
