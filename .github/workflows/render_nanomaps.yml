@@ -30,7 +30,7 @@ jobs:
         git checkout nanomap-render
         git reset --hard origin/main
     - name: 'Generate Maps'
-      run: './tools/github-actions/nanomap-renderer-invoker.sh'
+      run: 'run: chmod +x ./tools/github-actions/nanomap-renderer-invoker.sh && ./tools/github-actions/nanomap-renderer-invoker.sh'
 
     - name: 'Commit Maps'
       run: |
