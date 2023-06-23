@@ -12,6 +12,8 @@ on:
 
 jobs:
   run_linters:
+  - name: Change wrapper permissions
+    run: chmod +x ./tools/ci/build_tgui.sh
     name: Run Linters
     runs-on: ubuntu-22.04
     steps:
