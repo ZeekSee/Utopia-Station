@@ -11,10 +11,10 @@ on:
     
 
 jobs:
-  run_linters:
+run_linters:
   - name: Change wrapper permissions
     run: chmod +x ./tools/ci/build_tgui.sh
-    name: Run Linters
+  - name: Run Linters
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
