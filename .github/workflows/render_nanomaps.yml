@@ -22,6 +22,7 @@ jobs:
     steps:
     - name: 'Update Branch'
       uses: actions/checkout@v3
+
     - name: Branch
       run: |
         git fetch origin

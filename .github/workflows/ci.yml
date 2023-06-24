@@ -94,3 +94,4 @@ jobs:
           source $HOME/BYOND/byond/bin/byondsetup
           tools/ci/dm.sh -DCIBUILDING paradise.dme
           tools/ci/run_server.sh
+
