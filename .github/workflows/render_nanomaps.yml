@@ -22,7 +22,9 @@ jobs:
     steps:
     - name: 'Update Branch'
       uses: actions/checkout@v3
-
+    - name: 'Set execute permissions'
+      run: |
+        chmod +x ./tools/github-actions/nanomap-renderer-invoker.sh
     - name: Branch
       run: |
         git fetch origin
@@ -31,7 +33,6 @@ jobs:
         git reset --hard origin/main
     - name: 'Generate Maps'
       run: |
-        chmod +x ./tools/github-actions/nanomap-renderer-invoker.sh
         ./tools/github-actions/nanomap-renderer-invoker.sh
 
     - name: 'Commit Maps'
