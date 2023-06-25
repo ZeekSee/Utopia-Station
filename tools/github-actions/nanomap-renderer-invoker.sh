@@ -1,5 +1,8 @@
 #!/bin/bash
 # Generate maps
+chmod +x ./_maps/map_files/cyberiad/
+chmod +x ./_maps/map_files/Delta/
+chmod +x ./_maps/map_files/cerestation/
 tools/github-actions/nanomap-renderer minimap -w 2040 -h 2040 "./_maps/map_files/cyberiad/cyberiad.dmm"
 tools/github-actions/nanomap-renderer minimap -w 2040 -h 2040 "./_maps/map_files/Delta/delta.dmm"
 tools/github-actions/nanomap-renderer minimap -w 2040 -h 2040 "./_maps/map_files/cerestation/cerestation.dmm"
