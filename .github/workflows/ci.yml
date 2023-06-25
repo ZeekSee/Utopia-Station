@@ -52,6 +52,7 @@ jobs:
           key: ${{ runner.os }}-byond
       - name: Compile All Maps
         run: |
+          chmod +x tools/ci/install_byond.sh
           tools/ci/install_byond.sh
           source $HOME/BYOND/byond/bin/byondsetup
           tools/ci/generate_maplist.sh
