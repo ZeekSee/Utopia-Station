@@ -1,4 +1,4 @@
-name: Compile Maps
+name: Maps
 on:
   push:
     branches:
