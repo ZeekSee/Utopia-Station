@@ -57,6 +57,7 @@ jobs:
           source $HOME/BYOND/byond/bin/byondsetup
           chmod +x tools/ci/generate_maplist.sh
           tools/ci/generate_maplist.sh
+          chmod +x tools/ci/dm.sh
           tools/ci/dm.sh -Mci_map_testing paradise.dme
 
   unit_tests_and_sql:
