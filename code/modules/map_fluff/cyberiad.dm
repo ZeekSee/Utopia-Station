@@ -4,7 +4,7 @@
 
 	station_name  = "NSS Utopia"
 	station_short = "Utopia"
-	dock_name     = "NAS Trurl"
-	company_name  = "Nanotrasen"
-	company_short = "NT"
+	dock_name     = "Syndicate"
+	company_name  = "Syndicate"
+	company_short = "SY"
 	starsys_name  = "Epsilon Eridani "
