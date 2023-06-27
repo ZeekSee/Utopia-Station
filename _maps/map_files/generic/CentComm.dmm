@@ -25190,7 +25190,9 @@
 	dir = 1;
 	tag = "icon-tube1 (NORTH)"
 	},
-/turf/simulated/floor/shuttle,
+/turf/simulated/floor/shuttle{
+	icon_state = "floor12"
+	},
 /area/shuttle/supply)
 "ncQ" = (
 /obj/structure/closet/crate/internals,
@@ -26496,7 +26498,9 @@
 	pixel_x = -24;
 	pixel_y = 8
 	},
-/turf/simulated/floor/shuttle,
+/turf/simulated/floor/shuttle{
+	icon_state = "floor12"
+	},
 /area/shuttle/supply)
 "nFx" = (
 /obj/effect/turf_decal/arrows/white{
@@ -26715,7 +26719,9 @@
 	dir = 4;
 	tag = "icon-tube1 (EAST)"
 	},
-/turf/simulated/floor/shuttle,
+/turf/simulated/floor/shuttle{
+	icon_state = "floor12"
+	},
 /area/shuttle/supply)
 "nLW" = (
 /turf/simulated/floor/plasteel{
@@ -27782,7 +27788,9 @@
 /area/syndicate_mothership/elite_squad)
 "omG" = (
 /obj/machinery/light/spot,
-/turf/simulated/floor/shuttle,
+/turf/simulated/floor/shuttle{
+	icon_state = "floor12"
+	},
 /area/shuttle/supply)
 "omP" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -35129,7 +35137,9 @@
 /turf/simulated/floor/indestructible/grass,
 /area/syndicate_mothership/outside)
 "rOB" = (
-/turf/simulated/floor/shuttle,
+/turf/simulated/floor/shuttle{
+	icon_state = "floor12"
+	},
 /area/shuttle/supply)
 "rOV" = (
 /obj/machinery/door/poddoor/impassable{
