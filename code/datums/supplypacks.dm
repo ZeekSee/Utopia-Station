@@ -1139,7 +1139,7 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 					/obj/item/stack/sheet/mineral/gold,
 					/obj/item/stack/sheet/plastic/fifty,
 					/obj/item/stack/sheet/mineral/gold)
-	cost = 160
+	cost = 60
 	containertype = /obj/structure/closet/crate/secure/scisec
 	containername = "science resources crate"
 	access = ACCESS_RESEARCH
