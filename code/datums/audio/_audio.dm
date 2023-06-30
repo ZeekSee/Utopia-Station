@@ -5,7 +5,10 @@
 	var/title //The real title
 	var/author
 	var/collection
+<<<<<<< Updated upstream
 	var/decl/license/license
+=======
+>>>>>>> Stashed changes
 	var/url
 
 
@@ -14,11 +17,14 @@
 /decl/audio/track
 
 
+<<<<<<< Updated upstream
 /decl/audio/New()
 	. = ..()
 	license = decls_repository.get_decl(license)
 
 
+=======
+>>>>>>> Stashed changes
 /decl/audio/VV_static()
 	return ..() + vars
 
@@ -33,7 +39,11 @@
 	return S
 
 
+<<<<<<< Updated upstream
 /decl/audio/track/get_sound(channel = GLOB.lobby_sound_channel)
+=======
+/decl/audio/track/get_sound(channel = CHANNEL_LOBBYMUSIC)
+>>>>>>> Stashed changes
 	var/sound/S = ..()
 	S.repeat = TRUE
 	return S

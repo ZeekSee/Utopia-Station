@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /decl/audio/track/absconditus
 	source = 'sound/music/traitor.ogg'
 	title = "Absconditus"
@@ -296,3 +297,11 @@
 	author = "A Drop A Day"
 	license = /decl/license/cc_by_sa_3_0
 	url = "https://soundcloud.com/adrop_aday/14-wild-encounters"
+=======
+/decl/audio/track/utopia
+	source = 'sound/music/jukebox/utopia.ogg'
+	title = "Utopia"
+	author = "Craspore"
+	collection = "UNRELEASED"
+	url = "https://hitmos.me/song/66652852"
+>>>>>>> Stashed changes

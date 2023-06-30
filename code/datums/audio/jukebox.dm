@@ -155,6 +155,7 @@
 
 
 GLOBAL_LIST_INIT(jukebox_tracks, list(
+<<<<<<< Updated upstream
 	/decl/audio/track/absconditus,
 	/decl/audio/track/ambispace,
 	/decl/audio/track/asfarasitgets,
@@ -191,4 +192,7 @@ GLOBAL_LIST_INIT(jukebox_tracks, list(
 	/decl/audio/track/voidsent,
 	/decl/audio/track/wake,
 	/decl/audio/track/wildencounters
+=======
+	/decl/audio/track/utopia
+>>>>>>> Stashed changes
 ))
