@@ -328,7 +328,7 @@
 			INVOKE_ASYNC(src, PROC_REF(hierofunk))
 		sleep(selection.song_beat)
 
-
+/*
 /obj/machinery/disco/proc/dance(mob/living/M) //Show your moves
 	set waitfor = FALSE
 	if(M.client && !(M.client.prefs.sound & SOUND_DISCO)) //We have a client that doesn't want to dance.
@@ -447,7 +447,7 @@
 				animate(M, transform = initial_matrix, time = 1, loop = 0)
 		sleep(1)
 	M.lying_fix()
-
+*/
 
 
 /mob/living/proc/lying_fix()
@@ -482,14 +482,14 @@
 				if(!L || !L.client)
 					continue
 				L.stop_sound_channel(CHANNEL_JUKEBOX)
-			else if(prob(9) && L.canmove && isliving(L))
-				dance(L)
+			//else if(prob(9) && L.canmove && isliving(L))
+				//dance(L)
 	else if(active)
 		active = FALSE
 		STOP_PROCESSING(SSobj, src)
 		dance_over()
 		playsound(src,'sound/machines/terminal_off.ogg',50,1)
-		icon_state = "disco0"
+		icon_state = "jukebox2"
 		stop = world.time + 100
 
 
