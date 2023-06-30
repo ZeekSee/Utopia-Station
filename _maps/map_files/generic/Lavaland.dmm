@@ -7415,6 +7415,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel,
 /area/mine/laborcamp)
+"Zp" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/disco,
+/turf/simulated/floor/plasteel,
+/area/mine/living_quarters)
 "Zt" = (
 /obj/structure/stone_tile/block,
 /obj/structure/stone_tile/surrounding_tile/cracked{
@@ -17971,7 +17979,7 @@ er
 rV
 cM
 fx
-fz
+Zp
 fY
 gh
 cM
