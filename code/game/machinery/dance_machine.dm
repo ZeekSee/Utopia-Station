@@ -33,6 +33,7 @@
 	var/song_path = null
 	var/song_length = 0
 	var/song_beat = 0
+	var/GBP_required = 0
 
 /datum/track/New(name, path, length, beat)
 	song_name = name
@@ -53,7 +54,7 @@
 	var/datum/track/T = new /datum/track(name, file, length, beat)
 	songs += T
 
-/obj/machinery/disco/Initialize(mapload)
+/obj/machinery/disco/New()
 	. = ..()
 	selection = songs[1]
 
@@ -78,18 +79,13 @@
 		WRENCH_UNANCHOR_MESSAGE
 	playsound(src, 'sound/items/deconstruct.ogg', 50, 1)
 
-/obj/machinery/disco/update_icon_state()
+/obj/machinery/disco/update_icon()
 	if(active)
-		icon_state = "jukebox2"
-	else
 		icon_state = "jukebox-run"
+	else
+		icon_state = "jukebox2"
+	..()
 
-/obj/machinery/disco/update_overlays()
-	. = ..()
-	underlays.Cut()
-
-	if(active)
-		underlays += emissive_appearance(icon, "disco_lightmask")
 
 /obj/machinery/disco/attack_hand(mob/user)
 	if(..())
@@ -141,7 +137,6 @@
 					return
 				active = TRUE
 				update_icon()
-				set_light(1, LIGHTING_MINIMUM_POWER) //for emmisive appearance
 				dance_setup()
 				START_PROCESSING(SSobj, src)
 				lights_spin()
@@ -336,12 +331,9 @@
 
 /obj/machinery/disco/proc/dance(mob/living/M) //Show your moves
 	set waitfor = FALSE
-	if(M.client)
-		if(!(M.client.prefs.sound & SOUND_DISCO)) //they dont want music or dancing
-			rangers -= M //Doing that here as it'll be checked less often than in processing.
-			return
-		if(!(M.client.prefs.toggles2 & PREFTOGGLE_2_DANCE_DISCO)) //they just dont wanna dance
-			return
+	if(M.client && !(M.client.prefs.sound & SOUND_DISCO)) //We have a client that doesn't want to dance.
+		rangers -= M //Doing that here as it'll be checked less often than in processing.
+		return
 	switch(rand(0,9))
 		if(0 to 1)
 			dance2(M)
@@ -417,11 +409,9 @@
 		sleep(speed)
 		for(var/i in 1 to speed)
 			M.setDir(pick(GLOB.cardinal))
-			if(IS_HORIZONTAL(M))
-				M.stand_up()
-			else
-				M.lay_down()
-		time--
+			M.resting = !M.resting
+			M.update_canmove()
+		 time--
 
 /obj/machinery/disco/proc/dance5(mob/living/M)
 	animate(M, transform = matrix(180, MATRIX_ROTATE), time = 1, loop = 0)
@@ -465,8 +455,8 @@
 	lying_prev = 0
 
 /obj/machinery/disco/proc/dance_over()
-	QDEL_LIST_CONTENTS(spotlights)
-	QDEL_LIST_CONTENTS(sparkles)
+	QDEL_LIST(spotlights)
+	QDEL_LIST(sparkles)
 	for(var/mob/living/L in rangers)
 		if(!L || !L.client)
 			continue
@@ -486,21 +476,20 @@
 				if(!(M in rangers))
 					rangers[M] = TRUE
 					M.playsound_local(get_turf(M), null, 100, channel = CHANNEL_JUKEBOX, S = song_played, use_reverb = FALSE)
-		for(var/mob/living/L in rangers)
+		for(var/mob/L in rangers)
 			if(get_dist(src, L) > 10)
 				rangers -= L
 				if(!L || !L.client)
 					continue
 				L.stop_sound_channel(CHANNEL_JUKEBOX)
-			else if(prob(9) && (L.mobility_flags & MOBILITY_STAND) && isliving(L))
+			else if(prob(9) && L.canmove && isliving(L))
 				dance(L)
 	else if(active)
 		active = FALSE
 		STOP_PROCESSING(SSobj, src)
 		dance_over()
 		playsound(src,'sound/machines/terminal_off.ogg',50,1)
-		update_icon()
-		set_light(0)
+		icon_state = "disco0"
 		stop = world.time + 100
 
 
