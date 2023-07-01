@@ -105,7 +105,7 @@
 	var/limitalienplayers = 0
 	var/alien_to_human_ratio = 0.5
 
-	var/server = "byond://195.133.13.135:50608"
+	var/server
 	var/banappeals
 	var/wikiurl = "https://project-utopia.fandom.com/ru/wiki/Project_Utopia_Вики"
 	var/forumurl = "https://vk.com/utopiastation"
@@ -271,13 +271,13 @@
 	var/discord_admin_role_id = null // Intentional null usage
 
 	/// Webhook URLs for the main public webhook
-	var/list/discord_main_webhook_urls = list(https://discord.com/api/webhooks/1123250011891830916/1KJAu7n7xouxHTfDWfi1ry1vhjMgSs1Z7ZgEMVb_Xk2Usnp244lHxq39XxuQwz0vKdMS)
+	var/list/discord_main_webhook_urls = list('https://discord.com/api/webhooks/1123250011891830916/1KJAu7n7xouxHTfDWfi1ry1vhjMgSs1Z7ZgEMVb_Xk2Usnp244lHxq39XxuQwz0vKdMS')
 
 	/// Webhook URLs for the admin webhook
-	var/list/discord_admin_webhook_urls = list(https://discord.com/api/webhooks/1123302063397413135/A7zLZJNXLP28VFWD8_B1m8XZ5zHqRDxuPHddb2iQ4ncgF9Lq9Ea2ylSRTNj-EGQXo7ON)
+	var/list/discord_admin_webhook_urls = list('https://discord.com/api/webhooks/1123302063397413135/A7zLZJNXLP28VFWD8_B1m8XZ5zHqRDxuPHddb2iQ4ncgF9Lq9Ea2ylSRTNj-EGQXo7ON')
 
 	/// Webhook URLs for the mentor webhook
-	var/list/discord_mentor_webhook_urls = list(https://discord.com/api/webhooks/1123302063397413135/A7zLZJNXLP28VFWD8_B1m8XZ5zHqRDxuPHddb2iQ4ncgF9Lq9Ea2ylSRTNj-EGQXo7ON)
+	var/list/discord_mentor_webhook_urls = list('https://discord.com/api/webhooks/1123302063397413135/A7zLZJNXLP28VFWD8_B1m8XZ5zHqRDxuPHddb2iQ4ncgF9Lq9Ea2ylSRTNj-EGQXo7ON')
 
 	/// Do we want to forward all adminhelps to the discord or just ahelps when admins are offline.
 	/// (This does not mean all ahelps are pinged, only ahelps sent when staff are offline get the ping, regardless of this setting)
