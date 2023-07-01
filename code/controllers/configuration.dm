@@ -1,5 +1,5 @@
 /datum/configuration
-	var/server_name = "Project Utopia"				// server name (for world name / status)
+	var/server_name = null				// server name (for world name / status)
 	var/server_tag_line = null			// server tagline (for showing on hub entry)
 	var/server_extra_features = null		// server-specific extra features (for hub entry)
 	var/server_suffix = 0				// generate numeric suffix based on server port
@@ -107,15 +107,15 @@
 
 	var/server
 	var/banappeals
-	var/wikiurl = "https://project-utopia.fandom.com/ru/wiki/Project_Utopia_Вики"
-	var/forumurl = "https://vk.com/utopiastation"
-	var/rulesurl = "https://discord.gg/zdaXjN4GCN"
+	var/wikiurl = "http://example.org"
+	var/forumurl = "http://example.org"
+	var/rulesurl = "http://example.org"
 	var/githuburl = "http://example.org"
 	var/donationsurl = "http://example.org"
 	var/repositoryurl = "http://example.org"
-	var/discordurl = "https://discord.gg/zdaXjN4GCN"
-	var/discordforumurl = "https://discord.gg/zdaXjN4GCN"
-	var/discordbugreporturl = "https://discord.gg/zdaXjN4GCN"
+	var/discordurl = "http://example.org"
+	var/discordforumurl = "http://example.org"
+	var/discordbugreporturl = "http://example.org"
 
 	var/overflow_server_url
 	var/tutorial_server_url
@@ -194,7 +194,7 @@
 	var/list/event_first_run   = list(EVENT_LEVEL_MUNDANE = null, 	EVENT_LEVEL_MODERATE = null,	EVENT_LEVEL_MAJOR = list("lower" = 48000, "upper" = 60000))
 	// The lowest delay until next event
 	// 10, 30, 50 minutes respectively
-	var/list/event_delay_lower = list(EVENT_LEVEL_MUNDANE = 6000,	EVENT_LEVEL_MODERATE = 6000,	EVENT_LEVEL_MAJOR = 6000)
+	var/list/event_delay_lower = list(EVENT_LEVEL_MUNDANE = 6000,	EVENT_LEVEL_MODERATE = 18000,	EVENT_LEVEL_MAJOR = 30000)
 	// The upper delay until next event
 	// 15, 45, 70 minutes respectively
 	var/list/event_delay_upper = list(EVENT_LEVEL_MUNDANE = 9000,	EVENT_LEVEL_MODERATE = 27000,	EVENT_LEVEL_MAJOR = 42000)
@@ -224,7 +224,7 @@
 
 	var/shutdown_on_reboot = 0 // Whether to shut down the world instead of rebooting it
 
-	var/disable_karma = 1 // Disable all karma functions and unlock karma jobs by default
+	var/disable_karma = 0 // Disable all karma functions and unlock karma jobs by default
 
 	// StonedMC
 	var/tick_limit_mc_init = TICK_LIMIT_MC_INIT_DEFAULT	//SSinitialization throttling
@@ -265,23 +265,23 @@
 	var/byond_account_age_threshold = 7
 
 	/// Are discord webhooks enabled?
-	var/discord_webhooks_enabled = TRUE
+	var/discord_webhooks_enabled = FALSE
 
 	/// Role ID to be pinged for administrative events
 	var/discord_admin_role_id = null // Intentional null usage
 
 	/// Webhook URLs for the main public webhook
-	var/list/discord_main_webhook_urls = list('https://discord.com/api/webhooks/1123250011891830916/1KJAu7n7xouxHTfDWfi1ry1vhjMgSs1Z7ZgEMVb_Xk2Usnp244lHxq39XxuQwz0vKdMS')
+	var/list/discord_main_webhook_urls = list()
 
 	/// Webhook URLs for the admin webhook
-	var/list/discord_admin_webhook_urls = list('https://discord.com/api/webhooks/1123302063397413135/A7zLZJNXLP28VFWD8_B1m8XZ5zHqRDxuPHddb2iQ4ncgF9Lq9Ea2ylSRTNj-EGQXo7ON')
+	var/list/discord_admin_webhook_urls = list()
 
 	/// Webhook URLs for the mentor webhook
-	var/list/discord_mentor_webhook_urls = list('https://discord.com/api/webhooks/1123302063397413135/A7zLZJNXLP28VFWD8_B1m8XZ5zHqRDxuPHddb2iQ4ncgF9Lq9Ea2ylSRTNj-EGQXo7ON')
+	var/list/discord_mentor_webhook_urls = list()
 
 	/// Do we want to forward all adminhelps to the discord or just ahelps when admins are offline.
 	/// (This does not mean all ahelps are pinged, only ahelps sent when staff are offline get the ping, regardless of this setting)
-	var/discord_forward_all_ahelps = TRUE
+	var/discord_forward_all_ahelps = FALSE
 
 	/// URL for the CentCom Ban DB API
 	var/centcom_ban_db_url = null
