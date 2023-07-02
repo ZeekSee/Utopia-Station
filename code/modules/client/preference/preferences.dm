@@ -1089,7 +1089,6 @@ GLOBAL_LIST_INIT(special_role_times, list( //minimum age (in days) for accounts 
 		HTML += "[copytext_char(sec_record, 1, 37)]...<br>"
 
 	HTML += "<a href=\"byond://?_src_=prefs;preference=records;records=-1\">\[Done\]</a>"
-	HTML += "</center></tt>"
 
 	var/datum/browser/popup = new(user, "records", "<div align='center'>Character Records</div>", 350, 300)
 	popup.set_content(HTML)

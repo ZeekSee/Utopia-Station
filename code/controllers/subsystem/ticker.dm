@@ -22,7 +22,9 @@ SUBSYSTEM_DEF(ticker)
 	/// Our current game mode
 	var/datum/game_mode/mode = null
 	/// The current pick of lobby music played in the lobby
-	var/login_music
+	//var/login_music
+	//var/sound/music/login_music
+	var/decl/audio/login_music = list()
 	/// List of all minds in the game. Used for objective tracking
 	var/list/datum/mind/minds = list()
 	/// icon_state the chaplain has chosen for his bible
@@ -66,7 +68,7 @@ SUBSYSTEM_DEF(ticker)
 
 	var/list/randomtips = list()
 	var/list/memetips = list()
-
+/*
 /datum/controller/subsystem/ticker/Initialize()
 	login_music = pick(\
 	'sound/music/war.ogg',\
@@ -82,7 +84,7 @@ SUBSYSTEM_DEF(ticker)
 	memetips = file2list("strings/sillytips.txt")
 
 	return ..()
-
+*/
 
 /datum/controller/subsystem/ticker/fire()
 	switch(current_state)

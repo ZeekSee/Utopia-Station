@@ -269,3 +269,12 @@ GLOBAL_VAR_INIT(admin_ooc_colour, "#b82e00")
 	if(eyeobj)
 		return eyeobj
 	return src
+/*
+/mob/new_player/verb/next_lobby_track()
+	set name = "Play Different Lobby Track"
+	set category = "OOC"
+
+	var/decl/audio/track/track = GLOB.login_music()
+	sound_to(src, track.get_sound())
+	to_chat(src, track.get_info())
+*/
