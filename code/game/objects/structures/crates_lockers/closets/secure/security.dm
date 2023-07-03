@@ -104,7 +104,6 @@
 	new /obj/item/shield/riot/tele(src)
 	new /obj/item/storage/belt/security/sec(src)
 	new /obj/item/flashlight/seclite(src)
-	new /obj/item/thermal_drill/diamond_drill(src)
 	new /obj/item/gun/energy/gun/hos(src)
 	new /obj/item/door_remote/head_of_security(src)
 	new /obj/item/reagent_containers/food/drinks/mug/hos(src)
