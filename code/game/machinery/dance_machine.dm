@@ -33,12 +33,14 @@
 	var/song_path = null
 	var/song_length = 0
 	var/song_beat = 0
+	var/repeat = TRUE
 
-/datum/track/New(name, path, length, beat)
+/datum/track/New(name, path, length, beat, repeat)
 	song_name = name
 	song_path = path
 	song_length = length
 	song_beat = beat
+	repeat = 1
 
 /obj/machinery/disco/proc/add_track(file, name, length, beat)
 	var/sound/S = file
