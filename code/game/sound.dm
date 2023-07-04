@@ -179,7 +179,6 @@ falloff_distance - Distance at which falloff begins. Sound is at peak volume (in
 		return
 	if(prefs.sound & CHANNEL_LOBBYMUSIC)
 		SEND_SOUND(src, sound(SSticker.login_music, repeat = 1, wait = 0, volume = 85 * prefs.get_channel_volume(CHANNEL_LOBBYMUSIC), channel = CHANNEL_LOBBYMUSIC)) // MAD JAMS
-		to_chat(src, GLOB.track,get_info)
 
 /proc/get_rand_frequency()
 	return rand(32000, 55000) //Frequency stuff only works with 45kbps oggs.
