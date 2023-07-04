@@ -63,12 +63,14 @@ SUBSYSTEM_DEF(ticker)
 	var/real_reboot_time = 0
 	/// Do we need to switch pacifism after Greentext
 	var/toggle_pacifism = TRUE
+	var/list/music_files
+	var/music_name
 
 	var/list/randomtips = list()
 	var/list/memetips = list()
 
 /datum/controller/subsystem/ticker/Initialize()
-	login_music = pick(\
+	music_files = list(\
 	'sound/music/war.ogg',\
 	'sound/music/utopia.ogg',\
 	'sound/music/lostreality.ogg',\
@@ -76,7 +78,10 @@ SUBSYSTEM_DEF(ticker)
 	'sound/music/monogamy.ogg',\
 	'sound/music/webplague.ogg',\
 	'sound/music/sexglitches.ogg',\
-	'sound/music/tvoefuture.ogg',)
+	'sound/music/tvoefuture.ogg')
+
+	login_music = pick(music_files)
+	music_name = pick(music_files)
 
 	randomtips = file2list("strings/tips.txt")
 	memetips = file2list("strings/sillytips.txt")
@@ -89,8 +94,8 @@ SUBSYSTEM_DEF(ticker)
 		if(GAME_STATE_STARTUP)
 			// This is ran as soon as the MC starts firing, and should only run ONCE, unless startup fails
 			round_start_time = world.time + (config.pregame_timestart * 10)
-			to_chat(world, "<B><span class='darkmblue'>Welcome to the pre-game lobby!</span></B>")
-			to_chat(world, "Please, setup your character and select ready. Game will start in [config.pregame_timestart] seconds")
+			to_chat(world, "<B><span class='darkmblue'>Добро пожаловать в пре-игровое лобби!</span></B>")
+			to_chat(world, "Перед началом игры, пожалуйста, ознакомьтесь с правилами и лором, которые вы найдёте в нашем дискорд-канале. Игра начнётся через [config.pregame_timestart] секунд")
 			current_state = GAME_STATE_PREGAME
 			fire() // TG says this is a good idea
 			for(var/mob/new_player/N in GLOB.player_list)
