@@ -213,7 +213,10 @@
 	if(escaped_on_pod_5)
 		SSblackbox.record_feedback("nested tally", "round_end_stats", escaped_on_pod_5, list("escapees", "on_pod_5"))
 
-	SSdiscord.send2discord_simple(DISCORD_WEBHOOK_PRIMARY, "A round of [name] has ended!\ Total survivors - [surviving_total], there were - [surviving_humans].\ Was escaped - [escaped_on_shuttle].\ [ghosts] ghosts.")
+	SSdiscord.send2discord_simple(DISCORD_WEBHOOK_PRIMARY, "A round of [name] has ended!\
+	Total survivors - [surviving_total].\
+	 Was escaped - [escaped_on_shuttle].\
+	 [ghosts] ghosts.")
 	return 0
 
 
